@@ -1,7 +1,8 @@
 {
-  "schema": "jev-tennis-public-v5",
-  "generated_utc": "2026-11-12T18:40:36.244880Z",
-  "generated_warsaw": "2026-11-12T19:40:36.244880+01:00",
+  "schema": "jev-tennis-public-v6",
+  "generated_utc": "2026-11-13T07:21:18.701441Z",
+  "generated_warsaw": "2026-11-13T08:21:18.701441+01:00",
+  "last_results_sync_utc": "2026-11-13T07:07:30.850702Z",
   "status": "LIVE",
   "singles": [
     {
@@ -27,10 +28,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_aa1ae77a4e16b4f0ddf8",
       "locked_utc": "2026-11-12T16:35:19.188616Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T07:07:30.850702Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_name": "Filip Jeff Planinsek",
       "pick_probability": 0.5735607367869826,
       "pick_odds": 3.24
@@ -558,10 +559,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_aa1ae77a4e16b4f0ddf8",
       "locked_utc": "2026-11-12T16:35:19.188616Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T07:07:30.850702Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_name": "Filip Jeff Planinsek",
       "pick_probability": 0.5735607367869826,
       "pick_odds": 3.24
@@ -629,14 +630,49 @@
       "pick_odds": 2.8
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "match_id": "0d58174a52d5a1a06318634e",
+      "tour": "ATP",
+      "surface": "HARD",
+      "start_utc": "2026-11-12T19:00:00Z",
+      "tournament": "Knoxville Challenger",
+      "player1": "Filip Jeff Planinsek",
+      "player2": "Alastair Gray",
+      "prediction_id": "5275c1eb177e96d98006b8c7",
+      "p1": 0.5735607367869826,
+      "p2": 0.4264392632130174,
+      "ev": 0.8583367871898238,
+      "decision": "PICK",
+      "model_confidence": 0.46700325518498914,
+      "data_quality": 0.8214285714285714,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 3.24,
+      "p2_odds": 1.352,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-12T16:35:19.188616Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_aa1ae77a4e16b4f0ddf8",
+      "locked_utc": "2026-11-12T16:35:19.188616Z",
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T07:07:30.850702Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_name": "Filip Jeff Planinsek",
+      "pick_probability": 0.5735607367869826,
+      "pick_odds": 3.24
+    }
+  ],
   "packages": [
     {
       "package_id": "PKG_95b446349b18bbbcc79d301f",
       "variant": "TOP2",
       "created_utc": "2026-11-12T16:35:19.188616Z",
       "combined_odds": 13.5432,
-      "status": "PENDING",
+      "status": "LOSS",
+      "settled_utc": "2026-11-13T07:07:30.850702Z",
+      "profit_1u": -1.0,
+      "reason": "at least one leg lost",
       "legs": [
         {
           "match_id": "4041e796f31c0f946f879f4b",
@@ -654,7 +690,7 @@
           "pick": "Filip Jeff Planinsek",
           "odds": 3.24,
           "lock_id": "LOCK_aa1ae77a4e16b4f0ddf8",
-          "status": "PENDING"
+          "status": "LOSS"
         }
       ],
       "dependency": "different matches; shared model/data-source risk"
@@ -664,7 +700,10 @@
       "variant": "TOP3",
       "created_utc": "2026-11-12T16:35:19.188616Z",
       "combined_odds": 37.92096,
-      "status": "PENDING",
+      "status": "LOSS",
+      "settled_utc": "2026-11-13T07:07:30.850702Z",
+      "profit_1u": -1.0,
+      "reason": "at least one leg lost",
       "legs": [
         {
           "match_id": "4041e796f31c0f946f879f4b",
@@ -682,7 +721,7 @@
           "pick": "Filip Jeff Planinsek",
           "odds": 3.24,
           "lock_id": "LOCK_aa1ae77a4e16b4f0ddf8",
-          "status": "PENDING"
+          "status": "LOSS"
         },
         {
           "match_id": "2c85bfd6775a0681ca231142",
@@ -698,19 +737,88 @@
     }
   ],
   "metrics": {
-    "n": 0,
+    "n": 1,
     "wins": 0,
-    "losses": 0,
-    "wr": null,
-    "roi": null,
-    "pf": null,
-    "max_dd": 0.0,
-    "equity": 0.0
+    "losses": 1,
+    "voids": 0,
+    "wr": 0.0,
+    "roi": -1.0,
+    "roi_denominator": "all financially settled stakes, including returned VOID stakes",
+    "pf": 0.0,
+    "max_dd": 1.0,
+    "equity": -1.0
+  },
+  "metrics_by_variant": {
+    "SINGLE": {
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "voids": 0,
+      "wr": 0.0,
+      "roi": -1.0,
+      "roi_denominator": "all financially settled stakes, including returned VOID stakes",
+      "pf": 0.0,
+      "max_dd": 1.0,
+      "equity": -1.0
+    },
+    "TOP2": {
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "voids": 0,
+      "wr": 0.0,
+      "roi": -1.0,
+      "roi_denominator": "all financially settled stakes, including returned VOID stakes",
+      "pf": 0.0,
+      "max_dd": 1.0,
+      "equity": -1.0
+    },
+    "TOP3": {
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "voids": 0,
+      "wr": 0.0,
+      "roi": -1.0,
+      "roi_denominator": "all financially settled stakes, including returned VOID stakes",
+      "pf": 0.0,
+      "max_dd": 1.0,
+      "equity": -1.0
+    }
+  },
+  "status_counts": {
+    "SINGLE": {
+      "pending": 2,
+      "review_required": 0
+    },
+    "TOP2": {
+      "pending": 0,
+      "review_required": 0
+    },
+    "TOP3": {
+      "pending": 0,
+      "review_required": 0
+    }
   },
   "equity": {
-    "SINGLE": [],
-    "TOP2": [],
-    "TOP3": []
+    "SINGLE": [
+      {
+        "at": "2026-11-13T07:07:30.850702Z",
+        "equity": -1.0
+      }
+    ],
+    "TOP2": [
+      {
+        "at": "2026-11-13T07:07:30.850702Z",
+        "equity": -1.0
+      }
+    ],
+    "TOP3": [
+      {
+        "at": "2026-11-13T07:07:30.850702Z",
+        "equity": -1.0
+      }
+    ]
   },
   "source": {
     "fixtures_odds": "Tennis API via RapidAPI",
