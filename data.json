@@ -1,8 +1,8 @@
 {
   "schema": "jev-tennis-public-v6",
-  "generated_utc": "2026-11-13T07:21:18.701441Z",
-  "generated_warsaw": "2026-11-13T08:21:18.701441+01:00",
-  "last_results_sync_utc": "2026-11-13T07:07:30.850702Z",
+  "generated_utc": "2026-11-13T08:23:37.368443Z",
+  "generated_warsaw": "2026-11-13T09:23:37.368443+01:00",
+  "last_results_sync_utc": "2026-11-13T08:23:33.736540Z",
   "status": "LIVE",
   "singles": [
     {
@@ -59,10 +59,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_698e28982613b48e5a31",
       "locked_utc": "2026-11-12T16:35:19.188616Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T08:23:33.736540Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_name": "Kaichi Uchida",
       "pick_probability": 0.5535164602180686,
       "pick_odds": 4.18
@@ -590,10 +590,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_698e28982613b48e5a31",
       "locked_utc": "2026-11-12T16:35:19.188616Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T08:23:33.736540Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_name": "Kaichi Uchida",
       "pick_probability": 0.5535164602180686,
       "pick_odds": 4.18
@@ -661,6 +661,37 @@
       "pick_name": "Filip Jeff Planinsek",
       "pick_probability": 0.5735607367869826,
       "pick_odds": 3.24
+    },
+    {
+      "match_id": "4041e796f31c0f946f879f4b",
+      "tour": "ATP",
+      "surface": "HARD",
+      "start_utc": "2026-11-13T03:30:00Z",
+      "tournament": "Matsuyama Challenger",
+      "player1": "Kaichi Uchida",
+      "player2": "Billy Harris",
+      "prediction_id": "0a9c70f97f0e9b568a2a20f6",
+      "p1": 0.5535164602180686,
+      "p2": 0.44648353978193145,
+      "ev": 1.3136988037115263,
+      "decision": "PICK",
+      "model_confidence": 0.7335939734000348,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 4.18,
+      "p2_odds": 1.251,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-12T16:35:19.188616Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_698e28982613b48e5a31",
+      "locked_utc": "2026-11-12T16:35:19.188616Z",
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-13T08:23:33.736540Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_name": "Kaichi Uchida",
+      "pick_probability": 0.5535164602180686,
+      "pick_odds": 4.18
     }
   ],
   "packages": [
@@ -681,7 +712,7 @@
           "pick": "Kaichi Uchida",
           "odds": 4.18,
           "lock_id": "LOCK_698e28982613b48e5a31",
-          "status": "PENDING"
+          "status": "LOSS"
         },
         {
           "match_id": "0d58174a52d5a1a06318634e",
@@ -712,7 +743,7 @@
           "pick": "Kaichi Uchida",
           "odds": 4.18,
           "lock_id": "LOCK_698e28982613b48e5a31",
-          "status": "PENDING"
+          "status": "LOSS"
         },
         {
           "match_id": "0d58174a52d5a1a06318634e",
@@ -737,29 +768,29 @@
     }
   ],
   "metrics": {
-    "n": 1,
+    "n": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "voids": 0,
     "wr": 0.0,
     "roi": -1.0,
     "roi_denominator": "all financially settled stakes, including returned VOID stakes",
     "pf": 0.0,
-    "max_dd": 1.0,
-    "equity": -1.0
+    "max_dd": 2.0,
+    "equity": -2.0
   },
   "metrics_by_variant": {
     "SINGLE": {
-      "n": 1,
+      "n": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "voids": 0,
       "wr": 0.0,
       "roi": -1.0,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
       "pf": 0.0,
-      "max_dd": 1.0,
-      "equity": -1.0
+      "max_dd": 2.0,
+      "equity": -2.0
     },
     "TOP2": {
       "n": 1,
@@ -788,7 +819,7 @@
   },
   "status_counts": {
     "SINGLE": {
-      "pending": 2,
+      "pending": 1,
       "review_required": 0
     },
     "TOP2": {
@@ -805,6 +836,10 @@
       {
         "at": "2026-11-13T07:07:30.850702Z",
         "equity": -1.0
+      },
+      {
+        "at": "2026-11-13T08:23:33.736540Z",
+        "equity": -2.0
       }
     ],
     "TOP2": [
