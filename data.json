@@ -1,8 +1,8 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-14T15:00:06.698408Z",
-  "generated_warsaw": "2026-11-14T16:00:06.698408+01:00",
-  "last_results_sync_utc": "2026-11-14T15:00:03.395802Z",
+  "generated_utc": "2026-11-14T16:00:06.916497Z",
+  "generated_warsaw": "2026-11-14T17:00:06.916497+01:00",
+  "last_results_sync_utc": "2026-11-14T16:00:03.547164Z",
   "status": "LIVE",
   "singles": [
     {
@@ -916,8 +916,8 @@
       "pick_name": "Taylor Fritz",
       "pick_probability": 0.8747937823298136,
       "pick_odds": 1.178,
-      "virtual_status": "PENDING",
-      "virtual_profit_1u": null
+      "virtual_status": "WIN",
+      "virtual_profit_1u": 0.17799999999999994
     }
   ],
   "locks": [
@@ -1923,16 +1923,16 @@
       "NO_BET": {
         "metrics": {
           "n": 25,
-          "wins": 16,
+          "wins": 17,
           "losses": 6,
           "voids": 0,
-          "pending": 1,
+          "pending": 0,
           "review_required": 2,
           "unverifiable": 0,
-          "wr": 0.7272727272727273,
-          "profit": 6.978999999999999,
-          "roi": 0.3172272727272727,
-          "pf": 2.1631666666666667,
+          "wr": 0.7391304347826086,
+          "profit": 7.156999999999999,
+          "roi": 0.31117391304347825,
+          "pf": 2.192833333333333,
           "max_dd": 1.0,
           "avg_odds": 1.71428,
           "avg_ev": -0.0014391790204400846,
@@ -2025,6 +2025,10 @@
             {
               "at": "2026-11-14T14:00:04.561380Z",
               "equity": 6.979
+            },
+            {
+              "at": "2026-11-14T16:00:03.547164Z",
+              "equity": 7.157
             }
           ]
         },
@@ -2525,25 +2529,25 @@
             "ev": 0.030507075584520482,
             "selection_group": "NO_BET",
             "selection_reason": "daily SINGLE limit reached",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-14T16:00:03.547164Z",
+            "profit_1u": 0.17799999999999994
           }
         ]
       },
       "ALL_PICKS": {
         "metrics": {
           "n": 33,
-          "wins": 16,
+          "wins": 17,
           "losses": 10,
           "voids": 0,
-          "pending": 4,
+          "pending": 3,
           "review_required": 3,
           "unverifiable": 0,
-          "wr": 0.6153846153846154,
-          "profit": 2.9789999999999996,
-          "roi": 0.11457692307692306,
-          "pf": 1.2978999999999998,
+          "wr": 0.6296296296296297,
+          "profit": 3.1569999999999996,
+          "roi": 0.1169259259259259,
+          "pf": 1.3157,
           "max_dd": 2.419,
           "avg_odds": 2.0253939393939393,
           "avg_ev": 0.17009348417246056,
@@ -2652,6 +2656,10 @@
             {
               "at": "2026-11-14T14:00:04.561380Z",
               "equity": 2.979
+            },
+            {
+              "at": "2026-11-14T16:00:03.547164Z",
+              "equity": 3.157
             }
           ]
         },
@@ -3252,9 +3260,9 @@
             "ev": 0.030507075584520482,
             "selection_group": "NO_BET",
             "selection_reason": "daily SINGLE limit reached",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-14T16:00:03.547164Z",
+            "profit_1u": 0.17799999999999994
           },
           {
             "prediction_id": "7ce2b0c1b4438a411359fc88",
@@ -3595,16 +3603,16 @@
           {
             "label": "1.00-1.49",
             "n": 9,
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 2,
             "unverifiable": 0,
-            "wr": 0.5,
-            "profit": -2.252,
-            "roi": -0.3753333333333333,
-            "pf": 0.24933333333333332,
+            "wr": 0.5714285714285714,
+            "profit": -2.074,
+            "roi": -0.29628571428571426,
+            "pf": 0.30866666666666664,
             "max_dd": 2.252,
             "avg_odds": 1.3095555555555554,
             "avg_ev": -0.17362867720135622,
@@ -3633,6 +3641,10 @@
               {
                 "at": "2026-11-14T14:00:04.561380Z",
                 "equity": -2.252
+              },
+              {
+                "at": "2026-11-14T16:00:03.547164Z",
+                "equity": -2.074
               }
             ]
           },
@@ -3871,21 +3883,26 @@
           {
             "label": "0-5%",
             "n": 1,
-            "wins": 0,
+            "wins": 1,
             "losses": 0,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": null,
-            "profit": 0,
-            "roi": null,
-            "pf": null,
+            "wr": 1.0,
+            "profit": 0.17799999999999994,
+            "roi": 0.17799999999999994,
+            "pf": "INF",
             "max_dd": 0.0,
             "avg_odds": 1.178,
             "avg_ev": 0.030507075584520482,
             "avg_probability": 0.8747937823298136,
-            "equity": []
+            "equity": [
+              {
+                "at": "2026-11-14T16:00:03.547164Z",
+                "equity": 0.178
+              }
+            ]
           },
           {
             "label": "5-10%",
@@ -4014,16 +4031,16 @@
           {
             "label": "1.00-1.49",
             "n": 9,
-            "wins": 3,
+            "wins": 4,
             "losses": 3,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 2,
             "unverifiable": 0,
-            "wr": 0.5,
-            "profit": -2.252,
-            "roi": -0.3753333333333333,
-            "pf": 0.24933333333333332,
+            "wr": 0.5714285714285714,
+            "profit": -2.074,
+            "roi": -0.29628571428571426,
+            "pf": 0.30866666666666664,
             "max_dd": 2.252,
             "avg_odds": 1.3095555555555554,
             "avg_ev": -0.17362867720135622,
@@ -4052,6 +4069,10 @@
               {
                 "at": "2026-11-14T14:00:04.561380Z",
                 "equity": -2.252
+              },
+              {
+                "at": "2026-11-14T16:00:03.547164Z",
+                "equity": -2.074
               }
             ]
           },
@@ -4308,21 +4329,26 @@
           {
             "label": "0-5%",
             "n": 1,
-            "wins": 0,
+            "wins": 1,
             "losses": 0,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": null,
-            "profit": 0,
-            "roi": null,
-            "pf": null,
+            "wr": 1.0,
+            "profit": 0.17799999999999994,
+            "roi": 0.17799999999999994,
+            "pf": "INF",
             "max_dd": 0.0,
             "avg_odds": 1.178,
             "avg_ev": 0.030507075584520482,
             "avg_probability": 0.8747937823298136,
-            "equity": []
+            "equity": [
+              {
+                "at": "2026-11-14T16:00:03.547164Z",
+                "equity": 0.178
+              }
+            ]
           },
           {
             "label": "5-10%",
@@ -4464,7 +4490,7 @@
       }
     },
     "calibration": {
-      "n": 26,
+      "n": 27,
       "bins": [
         {
           "bin": "0-10%",
@@ -4516,9 +4542,9 @@
         },
         {
           "bin": "80-90%",
-          "n": 0,
-          "predicted": null,
-          "actual": null
+          "n": 1,
+          "predicted": 0.8747937823298136,
+          "actual": 1.0
         },
         {
           "bin": "90-100%",
@@ -4527,8 +4553,8 @@
           "actual": null
         }
       ],
-      "brier": 0.2602227706606735,
-      "log_loss": 0.7152370607309282
+      "brier": 0.2511655049674365,
+      "log_loss": 0.69370113617564
     }
   },
   "source": {
