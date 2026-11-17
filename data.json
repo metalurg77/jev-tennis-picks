@@ -1,43 +1,10 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-17T15:01:13.387675Z",
-  "generated_warsaw": "2026-11-17T16:01:13.387675+01:00",
+  "generated_utc": "2026-11-17T19:01:00.392894Z",
+  "generated_warsaw": "2026-11-17T20:01:00.392894+01:00",
   "last_results_sync_utc": "2026-11-17T15:01:05.405687Z",
   "status": "LIVE",
-  "singles": [
-    {
-      "match_id": "ef700a8d9bda886fb3a3ab92",
-      "tour": "ATP",
-      "surface": "HARD",
-      "start_utc": "2026-11-17T15:30:00Z",
-      "tournament": "Helsinki Challenger",
-      "player1": "Moez Echargui",
-      "player2": "Otto Virtanen",
-      "prediction_id": "f1e23442a83545647cb2d256",
-      "p1": 0.5067017744058022,
-      "p2": 0.4932982255941978,
-      "ev": 1.3561632509869805,
-      "decision": "PICK",
-      "model_confidence": 0.7921746097461709,
-      "data_quality": 0.9642857142857143,
-      "decision_reason": "positive EV and quality thresholds passed",
-      "p1_odds": 4.65,
-      "p2_odds": 1.147,
-      "bookmaker": "Marathonbet",
-      "odds_fetched_utc": "2026-11-16T19:00:05.103282Z",
-      "odds_source_updated_utc": null,
-      "lock_id": "LOCK_07b659d52c294ba59cce",
-      "locked_utc": "2026-11-16T19:00:10.350303Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
-      "pick_side": "1",
-      "pick_name": "Moez Echargui",
-      "pick_probability": 0.5067017744058022,
-      "pick_odds": 4.65
-    }
-  ],
+  "singles": [],
   "no_bet": [
     {
       "match_id": "8eb360c225247707b1a5e42d",
@@ -4731,7 +4698,9 @@
     }
   ],
   "views": {
-    "active_singles": [
+    "active_singles": [],
+    "active_packages": [],
+    "awaiting_singles": [
       {
         "match_id": "ef700a8d9bda886fb3a3ab92",
         "tour": "ATP",
@@ -4763,10 +4732,7 @@
         "pick_name": "Moez Echargui",
         "pick_probability": 0.5067017744058022,
         "pick_odds": 4.65
-      }
-    ],
-    "active_packages": [],
-    "awaiting_singles": [
+      },
       {
         "match_id": "578228a2f4dfe82e3c9a0dc7",
         "tour": "ATP",
