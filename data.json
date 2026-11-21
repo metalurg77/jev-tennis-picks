@@ -1,8 +1,8 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-21T19:01:11.947285Z",
-  "generated_warsaw": "2026-11-21T20:01:11.947285+01:00",
-  "last_results_sync_utc": "2026-11-21T19:01:06.060387Z",
+  "generated_utc": "2026-11-21T23:00:10.438029Z",
+  "generated_warsaw": "2026-11-22T00:00:10.438029+01:00",
+  "last_results_sync_utc": "2026-11-21T23:00:05.607060Z",
   "status": "LIVE",
   "singles": [],
   "no_bet": [
@@ -2757,7 +2757,7 @@
       "pick_name": "Santiago Fa Rodriguez Taverna",
       "pick_probability": 0.5215998826340105,
       "pick_odds": 1.763,
-      "virtual_status": "PENDING",
+      "virtual_status": "REVIEW_REQUIRED",
       "virtual_profit_1u": null
     },
     {
@@ -3165,8 +3165,8 @@
       "pick_name": "Lucciana Perez Alarcon",
       "pick_probability": 0.6484190835040748,
       "pick_odds": 1.34,
-      "virtual_status": "PENDING",
-      "virtual_profit_1u": null
+      "virtual_status": "WIN",
+      "virtual_profit_1u": 0.3400000000000001
     },
     {
       "match_id": "7ea355dc7a70ffa6275cd516",
@@ -3199,8 +3199,8 @@
       "pick_name": "Alexander Zverev",
       "pick_probability": 0.6257748263756225,
       "pick_odds": 1.543,
-      "virtual_status": "PENDING",
-      "virtual_profit_1u": null
+      "virtual_status": "WIN",
+      "virtual_profit_1u": 0.5429999999999999
     },
     {
       "match_id": "2c1c17e5a85402f60c422ef3",
@@ -3267,8 +3267,8 @@
       "pick_name": "Thiago Seyboth Wild",
       "pick_probability": 0.562124007176865,
       "pick_odds": 1.483,
-      "virtual_status": "PENDING",
-      "virtual_profit_1u": null
+      "virtual_status": "WIN",
+      "virtual_profit_1u": 0.4830000000000001
     },
     {
       "match_id": "3799a765863f8ee5262ba207",
@@ -4963,10 +4963,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_ba198a3643913457906e",
       "locked_utc": "2026-11-20T07:00:12.142278Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_side": "1",
       "pick_name": "Pedro Sakamoto",
       "pick_probability": 0.513920306490896,
@@ -5219,10 +5219,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_d7976274106e58386ace",
       "locked_utc": "2026-11-21T11:00:09.006129Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_side": "1",
       "pick_name": "Mell Elizabeth Reasco Gonzalez",
       "pick_probability": 0.5214774388963154,
@@ -5251,10 +5251,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_19b9d44aa6293953a7af",
       "locked_utc": "2026-11-21T07:00:11.119044Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "WIN",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": 1.2799999999999998,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_side": "2",
       "pick_name": "Francesco Passaro",
       "pick_probability": 0.514180814262567,
@@ -6863,6 +6863,38 @@
       "pick_odds": 1.133
     },
     {
+      "match_id": "4461f336c6f1553b2da84ca4",
+      "tour": "ATP",
+      "surface": "CLAY",
+      "start_utc": "2026-11-20T15:00:00Z",
+      "tournament": "M25 Lajeado",
+      "player1": "Pedro Sakamoto",
+      "player2": "Javier Barranco Cosano",
+      "prediction_id": "55747a2cb3e08ac108144f91",
+      "p1": 0.513920306490896,
+      "p2": 0.48607969350910396,
+      "ev": 0.1306246742799715,
+      "decision": "PICK",
+      "model_confidence": 0.6689854104344604,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 2.2,
+      "p2_odds": 1.636,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-20T07:00:07.331302Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_ba198a3643913457906e",
+      "locked_utc": "2026-11-20T07:00:12.142278Z",
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_side": "1",
+      "pick_name": "Pedro Sakamoto",
+      "pick_probability": 0.513920306490896,
+      "pick_odds": 2.2
+    },
+    {
       "match_id": "75ed246c766b07eefbc81b77",
       "tour": "ATP",
       "surface": "CLAY",
@@ -7021,6 +7053,70 @@
       "pick_name": "Carlos Alcaraz",
       "pick_probability": 0.841456720211099,
       "pick_odds": 1.41
+    },
+    {
+      "match_id": "478c9616a775f7457be1a393",
+      "tour": "WTA",
+      "surface": "CLAY",
+      "start_utc": "2026-11-21T14:00:00Z",
+      "tournament": "W35 Sao Paulo",
+      "player1": "Mell Elizabeth Reasco Gonzalez",
+      "player2": "Ana Sofia Sanchez",
+      "prediction_id": "832741254c0783f0849545af",
+      "p1": 0.5214774388963154,
+      "p2": 0.47852256110368463,
+      "ev": 0.0846730729043359,
+      "decision": "PICK",
+      "model_confidence": 0.6309787477251186,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 2.08,
+      "p2_odds": 1.709,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-21T11:00:05.775962Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_d7976274106e58386ace",
+      "locked_utc": "2026-11-21T11:00:09.006129Z",
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_side": "1",
+      "pick_name": "Mell Elizabeth Reasco Gonzalez",
+      "pick_probability": 0.5214774388963154,
+      "pick_odds": 2.08
+    },
+    {
+      "match_id": "8f05b17146d3dc21381bc82a",
+      "tour": "ATP",
+      "surface": "HARD",
+      "start_utc": "2026-11-21T15:30:00Z",
+      "tournament": "Metz Challenger",
+      "player1": "Harold Mayot",
+      "player2": "Francesco Passaro",
+      "prediction_id": "a37713b7e0351571a51d7e21",
+      "p1": 0.485819185737433,
+      "p2": 0.514180814262567,
+      "ev": 0.1723322565186527,
+      "decision": "PICK",
+      "model_confidence": 0.7662882645332486,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 1.68,
+      "p2_odds": 2.28,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-21T07:00:08.029450Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_19b9d44aa6293953a7af",
+      "locked_utc": "2026-11-21T07:00:11.119044Z",
+      "settlement_status": "WIN",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": 1.2799999999999998,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_side": "2",
+      "pick_name": "Francesco Passaro",
+      "pick_probability": 0.514180814262567,
+      "pick_odds": 2.28
     }
   ],
   "packages": [
@@ -7029,10 +7125,10 @@
       "variant": "TOP2",
       "created_utc": "2026-11-21T11:00:09.006129Z",
       "combined_odds": 4.534400000000001,
-      "status": "PENDING",
-      "settled_utc": null,
-      "profit_1u": null,
-      "reason": null,
+      "status": "LOSS",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": -1.0,
+      "reason": "at least one leg lost",
       "legs": [
         {
           "match_id": "f889b3ba9eba31c1e79e9650",
@@ -7054,9 +7150,9 @@
           "odds": 2.08,
           "lock_id": "LOCK_d7976274106e58386ace",
           "start_utc": "2026-11-21T14:00:00Z",
-          "settled_utc": null,
-          "profit_1u": null,
-          "status": "PENDING"
+          "settled_utc": "2026-11-21T23:00:05.607060Z",
+          "profit_1u": -1.0,
+          "status": "LOSS"
         }
       ],
       "dependency": "different matches; shared model/data-source risk"
@@ -7066,10 +7162,10 @@
       "variant": "TOP2",
       "created_utc": "2026-11-21T07:00:11.119044Z",
       "combined_odds": 4.7424,
-      "status": "PENDING",
-      "settled_utc": null,
-      "profit_1u": null,
-      "reason": null,
+      "status": "WIN",
+      "settled_utc": "2026-11-21T23:00:05.607060Z",
+      "profit_1u": 3.7424,
+      "reason": "all non-void legs won; frozen package odds policy",
       "legs": [
         {
           "match_id": "8f05b17146d3dc21381bc82a",
@@ -7079,9 +7175,9 @@
           "odds": 2.28,
           "lock_id": "LOCK_19b9d44aa6293953a7af",
           "start_utc": "2026-11-21T15:30:00Z",
-          "settled_utc": null,
-          "profit_1u": null,
-          "status": "PENDING"
+          "settled_utc": "2026-11-21T23:00:05.607060Z",
+          "profit_1u": 1.2799999999999998,
+          "status": "WIN"
         },
         {
           "match_id": "73d42082ee4c4f5e2f6513e1",
@@ -7214,9 +7310,9 @@
           "odds": 2.2,
           "lock_id": "LOCK_ba198a3643913457906e",
           "start_utc": "2026-11-20T15:00:00Z",
-          "settled_utc": null,
-          "profit_1u": null,
-          "status": "PENDING"
+          "settled_utc": "2026-11-21T23:00:05.607060Z",
+          "profit_1u": -1.0,
+          "status": "LOSS"
         }
       ],
       "dependency": "different matches; shared model/data-source risk"
@@ -8550,38 +8646,6 @@
         "pick_odds": 2.18
       },
       {
-        "match_id": "8f05b17146d3dc21381bc82a",
-        "tour": "ATP",
-        "surface": "HARD",
-        "start_utc": "2026-11-21T15:30:00Z",
-        "tournament": "Metz Challenger",
-        "player1": "Harold Mayot",
-        "player2": "Francesco Passaro",
-        "prediction_id": "a37713b7e0351571a51d7e21",
-        "p1": 0.485819185737433,
-        "p2": 0.514180814262567,
-        "ev": 0.1723322565186527,
-        "decision": "PICK",
-        "model_confidence": 0.7662882645332486,
-        "data_quality": 0.9642857142857143,
-        "decision_reason": "positive EV and quality thresholds passed",
-        "p1_odds": 1.68,
-        "p2_odds": 2.28,
-        "bookmaker": "Marathonbet",
-        "odds_fetched_utc": "2026-11-21T07:00:08.029450Z",
-        "odds_source_updated_utc": null,
-        "lock_id": "LOCK_19b9d44aa6293953a7af",
-        "locked_utc": "2026-11-21T07:00:11.119044Z",
-        "settlement_status": null,
-        "settled_utc": null,
-        "profit_1u": null,
-        "settlement_reason": null,
-        "pick_side": "2",
-        "pick_name": "Francesco Passaro",
-        "pick_probability": 0.514180814262567,
-        "pick_odds": 2.28
-      },
-      {
         "match_id": "ff2eda8f593eaf6bc08d36f5",
         "tour": "WTA",
         "surface": "CLAY",
@@ -8614,38 +8678,6 @@
         "pick_odds": 1.76
       },
       {
-        "match_id": "478c9616a775f7457be1a393",
-        "tour": "WTA",
-        "surface": "CLAY",
-        "start_utc": "2026-11-21T14:00:00Z",
-        "tournament": "W35 Sao Paulo",
-        "player1": "Mell Elizabeth Reasco Gonzalez",
-        "player2": "Ana Sofia Sanchez",
-        "prediction_id": "832741254c0783f0849545af",
-        "p1": 0.5214774388963154,
-        "p2": 0.47852256110368463,
-        "ev": 0.0846730729043359,
-        "decision": "PICK",
-        "model_confidence": 0.6309787477251186,
-        "data_quality": 0.9642857142857143,
-        "decision_reason": "positive EV and quality thresholds passed",
-        "p1_odds": 2.08,
-        "p2_odds": 1.709,
-        "bookmaker": "Marathonbet",
-        "odds_fetched_utc": "2026-11-21T11:00:05.775962Z",
-        "odds_source_updated_utc": null,
-        "lock_id": "LOCK_d7976274106e58386ace",
-        "locked_utc": "2026-11-21T11:00:09.006129Z",
-        "settlement_status": null,
-        "settled_utc": null,
-        "profit_1u": null,
-        "settlement_reason": null,
-        "pick_side": "1",
-        "pick_name": "Mell Elizabeth Reasco Gonzalez",
-        "pick_probability": 0.5214774388963154,
-        "pick_odds": 2.08
-      },
-      {
         "match_id": "19a93d3ad1e28b72ba343ebe",
         "tour": "WTA",
         "surface": "HARD",
@@ -8676,38 +8708,6 @@
         "pick_name": "Kajsa Rinaldo Persson",
         "pick_probability": 0.5201928805003806,
         "pick_odds": 3.04
-      },
-      {
-        "match_id": "4461f336c6f1553b2da84ca4",
-        "tour": "ATP",
-        "surface": "CLAY",
-        "start_utc": "2026-11-20T15:00:00Z",
-        "tournament": "M25 Lajeado",
-        "player1": "Pedro Sakamoto",
-        "player2": "Javier Barranco Cosano",
-        "prediction_id": "55747a2cb3e08ac108144f91",
-        "p1": 0.513920306490896,
-        "p2": 0.48607969350910396,
-        "ev": 0.1306246742799715,
-        "decision": "PICK",
-        "model_confidence": 0.6689854104344604,
-        "data_quality": 0.9642857142857143,
-        "decision_reason": "positive EV and quality thresholds passed",
-        "p1_odds": 2.2,
-        "p2_odds": 1.636,
-        "bookmaker": "Marathonbet",
-        "odds_fetched_utc": "2026-11-20T07:00:07.331302Z",
-        "odds_source_updated_utc": null,
-        "lock_id": "LOCK_ba198a3643913457906e",
-        "locked_utc": "2026-11-20T07:00:12.142278Z",
-        "settlement_status": null,
-        "settled_utc": null,
-        "profit_1u": null,
-        "settlement_reason": null,
-        "pick_side": "1",
-        "pick_name": "Pedro Sakamoto",
-        "pick_probability": 0.513920306490896,
-        "pick_odds": 2.2
       },
       {
         "match_id": "abac82c733eb7e65dd13e45c",
@@ -8807,80 +8807,6 @@
       }
     ],
     "awaiting_packages": [
-      {
-        "package_id": "PKG_26cdc8db0d92715394b6397e",
-        "variant": "TOP2",
-        "created_utc": "2026-11-21T11:00:09.006129Z",
-        "combined_odds": 4.534400000000001,
-        "status": "PENDING",
-        "settled_utc": null,
-        "profit_1u": null,
-        "reason": null,
-        "legs": [
-          {
-            "match_id": "f889b3ba9eba31c1e79e9650",
-            "prediction_id": "6277b698afb3daa546601fd4",
-            "players": "Nauhany Vitoria Leme Da Silva — Kayla Cross",
-            "pick": "Nauhany Vitoria Leme Da Silva",
-            "odds": 2.18,
-            "lock_id": "LOCK_49b8bcfdc0e6d9bdd28f",
-            "start_utc": "2026-11-21T19:00:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
-          },
-          {
-            "match_id": "478c9616a775f7457be1a393",
-            "prediction_id": "832741254c0783f0849545af",
-            "players": "Mell Elizabeth Reasco Gonzalez — Ana Sofia Sanchez",
-            "pick": "Mell Elizabeth Reasco Gonzalez",
-            "odds": 2.08,
-            "lock_id": "LOCK_d7976274106e58386ace",
-            "start_utc": "2026-11-21T14:00:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
-          }
-        ],
-        "dependency": "different matches; shared model/data-source risk"
-      },
-      {
-        "package_id": "PKG_35b4252488dea10664a41485",
-        "variant": "TOP2",
-        "created_utc": "2026-11-21T07:00:11.119044Z",
-        "combined_odds": 4.7424,
-        "status": "PENDING",
-        "settled_utc": null,
-        "profit_1u": null,
-        "reason": null,
-        "legs": [
-          {
-            "match_id": "8f05b17146d3dc21381bc82a",
-            "prediction_id": "a37713b7e0351571a51d7e21",
-            "players": "Harold Mayot — Francesco Passaro",
-            "pick": "Francesco Passaro",
-            "odds": 2.28,
-            "lock_id": "LOCK_19b9d44aa6293953a7af",
-            "start_utc": "2026-11-21T15:30:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
-          },
-          {
-            "match_id": "73d42082ee4c4f5e2f6513e1",
-            "prediction_id": "083d184c1e74194a75f1c92b",
-            "players": "Nishesh Basavareddy — Otto Virtanen",
-            "pick": "Otto Virtanen",
-            "odds": 2.08,
-            "lock_id": "LOCK_9247d66a66406a2081ea",
-            "start_utc": "2026-11-21T12:30:00Z",
-            "settled_utc": "2026-11-21T15:01:07.519230Z",
-            "profit_1u": 1.08,
-            "status": "WIN"
-          }
-        ],
-        "dependency": "different matches; shared model/data-source risk"
-      },
       {
         "package_id": "PKG_494a0cc66666649530e99479",
         "variant": "TOP2",
@@ -9043,6 +8969,102 @@
       }
     ],
     "history_singles": [
+      {
+        "match_id": "4461f336c6f1553b2da84ca4",
+        "tour": "ATP",
+        "surface": "CLAY",
+        "start_utc": "2026-11-20T15:00:00Z",
+        "tournament": "M25 Lajeado",
+        "player1": "Pedro Sakamoto",
+        "player2": "Javier Barranco Cosano",
+        "prediction_id": "55747a2cb3e08ac108144f91",
+        "p1": 0.513920306490896,
+        "p2": 0.48607969350910396,
+        "ev": 0.1306246742799715,
+        "decision": "PICK",
+        "model_confidence": 0.6689854104344604,
+        "data_quality": 0.9642857142857143,
+        "decision_reason": "positive EV and quality thresholds passed",
+        "p1_odds": 2.2,
+        "p2_odds": 1.636,
+        "bookmaker": "Marathonbet",
+        "odds_fetched_utc": "2026-11-20T07:00:07.331302Z",
+        "odds_source_updated_utc": null,
+        "lock_id": "LOCK_ba198a3643913457906e",
+        "locked_utc": "2026-11-20T07:00:12.142278Z",
+        "settlement_status": "LOSS",
+        "settled_utc": "2026-11-21T23:00:05.607060Z",
+        "profit_1u": -1.0,
+        "settlement_reason": "completed match; pre-match odds recorded",
+        "pick_side": "1",
+        "pick_name": "Pedro Sakamoto",
+        "pick_probability": 0.513920306490896,
+        "pick_odds": 2.2
+      },
+      {
+        "match_id": "478c9616a775f7457be1a393",
+        "tour": "WTA",
+        "surface": "CLAY",
+        "start_utc": "2026-11-21T14:00:00Z",
+        "tournament": "W35 Sao Paulo",
+        "player1": "Mell Elizabeth Reasco Gonzalez",
+        "player2": "Ana Sofia Sanchez",
+        "prediction_id": "832741254c0783f0849545af",
+        "p1": 0.5214774388963154,
+        "p2": 0.47852256110368463,
+        "ev": 0.0846730729043359,
+        "decision": "PICK",
+        "model_confidence": 0.6309787477251186,
+        "data_quality": 0.9642857142857143,
+        "decision_reason": "positive EV and quality thresholds passed",
+        "p1_odds": 2.08,
+        "p2_odds": 1.709,
+        "bookmaker": "Marathonbet",
+        "odds_fetched_utc": "2026-11-21T11:00:05.775962Z",
+        "odds_source_updated_utc": null,
+        "lock_id": "LOCK_d7976274106e58386ace",
+        "locked_utc": "2026-11-21T11:00:09.006129Z",
+        "settlement_status": "LOSS",
+        "settled_utc": "2026-11-21T23:00:05.607060Z",
+        "profit_1u": -1.0,
+        "settlement_reason": "completed match; pre-match odds recorded",
+        "pick_side": "1",
+        "pick_name": "Mell Elizabeth Reasco Gonzalez",
+        "pick_probability": 0.5214774388963154,
+        "pick_odds": 2.08
+      },
+      {
+        "match_id": "8f05b17146d3dc21381bc82a",
+        "tour": "ATP",
+        "surface": "HARD",
+        "start_utc": "2026-11-21T15:30:00Z",
+        "tournament": "Metz Challenger",
+        "player1": "Harold Mayot",
+        "player2": "Francesco Passaro",
+        "prediction_id": "a37713b7e0351571a51d7e21",
+        "p1": 0.485819185737433,
+        "p2": 0.514180814262567,
+        "ev": 0.1723322565186527,
+        "decision": "PICK",
+        "model_confidence": 0.7662882645332486,
+        "data_quality": 0.9642857142857143,
+        "decision_reason": "positive EV and quality thresholds passed",
+        "p1_odds": 1.68,
+        "p2_odds": 2.28,
+        "bookmaker": "Marathonbet",
+        "odds_fetched_utc": "2026-11-21T07:00:08.029450Z",
+        "odds_source_updated_utc": null,
+        "lock_id": "LOCK_19b9d44aa6293953a7af",
+        "locked_utc": "2026-11-21T07:00:11.119044Z",
+        "settlement_status": "WIN",
+        "settled_utc": "2026-11-21T23:00:05.607060Z",
+        "profit_1u": 1.2799999999999998,
+        "settlement_reason": "completed match; pre-match odds recorded",
+        "pick_side": "2",
+        "pick_name": "Francesco Passaro",
+        "pick_probability": 0.514180814262567,
+        "pick_odds": 2.28
+      },
       {
         "match_id": "b069e07b1ce5f1fb46670cdd",
         "tour": "WTA",
@@ -10710,6 +10732,80 @@
     ],
     "history_packages": [
       {
+        "package_id": "PKG_26cdc8db0d92715394b6397e",
+        "variant": "TOP2",
+        "created_utc": "2026-11-21T11:00:09.006129Z",
+        "combined_odds": 4.534400000000001,
+        "status": "LOSS",
+        "settled_utc": "2026-11-21T23:00:05.607060Z",
+        "profit_1u": -1.0,
+        "reason": "at least one leg lost",
+        "legs": [
+          {
+            "match_id": "f889b3ba9eba31c1e79e9650",
+            "prediction_id": "6277b698afb3daa546601fd4",
+            "players": "Nauhany Vitoria Leme Da Silva — Kayla Cross",
+            "pick": "Nauhany Vitoria Leme Da Silva",
+            "odds": 2.18,
+            "lock_id": "LOCK_49b8bcfdc0e6d9bdd28f",
+            "start_utc": "2026-11-21T19:00:00Z",
+            "settled_utc": null,
+            "profit_1u": null,
+            "status": "PENDING"
+          },
+          {
+            "match_id": "478c9616a775f7457be1a393",
+            "prediction_id": "832741254c0783f0849545af",
+            "players": "Mell Elizabeth Reasco Gonzalez — Ana Sofia Sanchez",
+            "pick": "Mell Elizabeth Reasco Gonzalez",
+            "odds": 2.08,
+            "lock_id": "LOCK_d7976274106e58386ace",
+            "start_utc": "2026-11-21T14:00:00Z",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0,
+            "status": "LOSS"
+          }
+        ],
+        "dependency": "different matches; shared model/data-source risk"
+      },
+      {
+        "package_id": "PKG_35b4252488dea10664a41485",
+        "variant": "TOP2",
+        "created_utc": "2026-11-21T07:00:11.119044Z",
+        "combined_odds": 4.7424,
+        "status": "WIN",
+        "settled_utc": "2026-11-21T23:00:05.607060Z",
+        "profit_1u": 3.7424,
+        "reason": "all non-void legs won; frozen package odds policy",
+        "legs": [
+          {
+            "match_id": "8f05b17146d3dc21381bc82a",
+            "prediction_id": "a37713b7e0351571a51d7e21",
+            "players": "Harold Mayot — Francesco Passaro",
+            "pick": "Francesco Passaro",
+            "odds": 2.28,
+            "lock_id": "LOCK_19b9d44aa6293953a7af",
+            "start_utc": "2026-11-21T15:30:00Z",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 1.2799999999999998,
+            "status": "WIN"
+          },
+          {
+            "match_id": "73d42082ee4c4f5e2f6513e1",
+            "prediction_id": "083d184c1e74194a75f1c92b",
+            "players": "Nishesh Basavareddy — Otto Virtanen",
+            "pick": "Otto Virtanen",
+            "odds": 2.08,
+            "lock_id": "LOCK_9247d66a66406a2081ea",
+            "start_utc": "2026-11-21T12:30:00Z",
+            "settled_utc": "2026-11-21T15:01:07.519230Z",
+            "profit_1u": 1.08,
+            "status": "WIN"
+          }
+        ],
+        "dependency": "different matches; shared model/data-source risk"
+      },
+      {
         "package_id": "PKG_9d77405849bca75f48a685d6",
         "variant": "TOP2",
         "created_utc": "2026-11-20T19:00:10.542682Z",
@@ -10825,9 +10921,9 @@
             "odds": 2.2,
             "lock_id": "LOCK_ba198a3643913457906e",
             "start_utc": "2026-11-20T15:00:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0,
+            "status": "LOSS"
           }
         ],
         "dependency": "different matches; shared model/data-source risk"
@@ -11966,41 +12062,41 @@
     ]
   },
   "metrics": {
-    "n": 52,
-    "wins": 20,
-    "losses": 32,
+    "n": 55,
+    "wins": 21,
+    "losses": 34,
     "voids": 0,
-    "wr": 0.38461538461538464,
-    "roi": -0.1734038461538462,
+    "wr": 0.38181818181818183,
+    "roi": -0.17703636363636366,
     "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-    "pf": 0.71821875,
+    "pf": 0.7136176470588236,
     "max_dd": 15.29,
-    "equity": -9.017000000000001
+    "equity": -9.737000000000002
   },
   "metrics_by_variant": {
     "SINGLE": {
-      "n": 52,
-      "wins": 20,
-      "losses": 32,
+      "n": 55,
+      "wins": 21,
+      "losses": 34,
       "voids": 0,
-      "wr": 0.38461538461538464,
-      "roi": -0.1734038461538462,
+      "wr": 0.38181818181818183,
+      "roi": -0.17703636363636366,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-      "pf": 0.71821875,
+      "pf": 0.7136176470588236,
       "max_dd": 15.29,
-      "equity": -9.017000000000001
+      "equity": -9.737000000000002
     },
     "TOP2": {
-      "n": 18,
-      "wins": 5,
-      "losses": 13,
+      "n": 20,
+      "wins": 6,
+      "losses": 14,
       "voids": 0,
-      "wr": 0.2777777777777778,
-      "roi": 0.28253,
+      "wr": 0.3,
+      "roi": 0.391397,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-      "pf": 1.3911953846153844,
+      "pf": 1.5591385714285713,
       "max_dd": 6.0,
-      "equity": 5.08554
+      "equity": 7.82794
     },
     "TOP3": {
       "n": 12,
@@ -12017,11 +12113,11 @@
   },
   "status_counts": {
     "SINGLE": {
-      "pending": 7,
+      "pending": 4,
       "review_required": 2
     },
     "TOP2": {
-      "pending": 3,
+      "pending": 1,
       "review_required": 2
     },
     "TOP3": {
@@ -12220,98 +12316,118 @@
         "equity": -9.347
       },
       {
-        "at": "2026-11-21T03:00:05.813962Z",
-        "equity": -8.507
+        "at": "2026-11-21T23:00:05.607060Z",
+        "equity": -10.347
       },
       {
-        "at": "2026-11-20T23:00:05.886170Z",
+        "at": "2026-11-21T03:00:05.813962Z",
         "equity": -9.507
       },
       {
-        "at": "2026-11-21T19:01:06.060387Z",
+        "at": "2026-11-20T23:00:05.886170Z",
         "equity": -10.507
       },
       {
+        "at": "2026-11-21T19:01:06.060387Z",
+        "equity": -11.507
+      },
+      {
         "at": "2026-11-21T15:01:07.519230Z",
-        "equity": -9.427
+        "equity": -10.427
       },
       {
         "at": "2026-11-21T19:01:06.060387Z",
-        "equity": -9.017
+        "equity": -10.017
+      },
+      {
+        "at": "2026-11-21T23:00:05.607060Z",
+        "equity": -11.017
+      },
+      {
+        "at": "2026-11-21T23:00:05.607060Z",
+        "equity": -9.737
       }
     ],
     "TOP2": [
       {
-        "at": "2026-11-21T19:01:06.060387Z",
+        "at": "2026-11-21T23:00:05.607060Z",
         "equity": -1.0
       },
       {
-        "at": "2026-11-20T23:00:05.886170Z",
-        "equity": -2.0
+        "at": "2026-11-21T23:00:05.607060Z",
+        "equity": 2.7424
+      },
+      {
+        "at": "2026-11-21T19:01:06.060387Z",
+        "equity": 1.7424
       },
       {
         "at": "2026-11-20T23:00:05.886170Z",
-        "equity": -3.0
+        "equity": 0.7424
       },
       {
         "at": "2026-11-20T23:00:05.886170Z",
-        "equity": -1.53006
+        "equity": -0.2576
       },
       {
         "at": "2026-11-20T23:00:05.886170Z",
-        "equity": 1.48934
+        "equity": 1.21234
+      },
+      {
+        "at": "2026-11-20T23:00:05.886170Z",
+        "equity": 4.23174
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 0.48934
+        "equity": 3.23174
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 5.79414
+        "equity": 8.53654
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 4.79414
+        "equity": 7.53654
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 3.79414
+        "equity": 6.53654
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 2.79414
+        "equity": 5.53654
       },
       {
         "at": "2026-11-17T15:01:05.405687Z",
-        "equity": 1.79414
+        "equity": 4.53654
       },
       {
         "at": "2026-11-17T23:00:05.510838Z",
-        "equity": 0.79414
+        "equity": 3.53654
       },
       {
         "at": "2026-11-16T23:00:06.321225Z",
-        "equity": -0.20586
+        "equity": 2.53654
       },
       {
         "at": "2026-11-17T23:00:05.510838Z",
-        "equity": 6.38994
+        "equity": 9.13234
       },
       {
         "at": "2026-11-15T23:00:07.910729Z",
-        "equity": 5.38994
+        "equity": 8.13234
       },
       {
         "at": "2026-11-15T23:00:07.910729Z",
-        "equity": 7.08554
+        "equity": 9.82794
       },
       {
         "at": "2026-11-14T17:00:03.583361Z",
-        "equity": 6.08554
+        "equity": 8.82794
       },
       {
         "at": "2026-11-13T07:07:30.850702Z",
-        "equity": 5.08554
+        "equity": 7.82794
       }
     ],
     "TOP3": [
@@ -12370,16 +12486,16 @@
       "LOCK": {
         "metrics": {
           "n": 52,
-          "wins": 18,
-          "losses": 26,
+          "wins": 19,
+          "losses": 28,
           "voids": 0,
-          "pending": 6,
+          "pending": 3,
           "review_required": 2,
           "unverifiable": 0,
-          "wr": 0.4090909090909091,
-          "profit": -5.612000000000001,
-          "roi": -0.12754545454545457,
-          "pf": 0.784153846153846,
+          "wr": 0.40425531914893614,
+          "profit": -6.332000000000001,
+          "roi": -0.13472340425531917,
+          "pf": 0.7738571428571427,
           "max_dd": 12.475000000000001,
           "avg_odds": 3.012865384615386,
           "avg_ev": 0.7575841223724051,
@@ -12542,24 +12658,36 @@
               "equity": -5.942
             },
             {
-              "at": "2026-11-21T03:00:05.813962Z",
-              "equity": -5.102
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -6.942
             },
             {
-              "at": "2026-11-20T23:00:05.886170Z",
+              "at": "2026-11-21T03:00:05.813962Z",
               "equity": -6.102
             },
             {
-              "at": "2026-11-21T19:01:06.060387Z",
+              "at": "2026-11-20T23:00:05.886170Z",
               "equity": -7.102
             },
             {
+              "at": "2026-11-21T19:01:06.060387Z",
+              "equity": -8.102
+            },
+            {
               "at": "2026-11-21T15:01:07.519230Z",
-              "equity": -6.022
+              "equity": -7.022
             },
             {
               "at": "2026-11-21T19:01:06.060387Z",
-              "equity": -5.612
+              "equity": -6.612
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -7.612
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -6.332
             }
           ]
         },
@@ -13400,9 +13528,9 @@
             "ev": 0.1306246742799715,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "5012706450e6d7388eb1e53c",
@@ -13560,9 +13688,9 @@
             "ev": 0.0846730729043359,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "a37713b7e0351571a51d7e21",
@@ -13580,9 +13708,9 @@
             "ev": 0.1723322565186527,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 1.2799999999999998
           },
           {
             "prediction_id": "6277b698afb3daa546601fd4",
@@ -13609,16 +13737,16 @@
       "NO_BET": {
         "metrics": {
           "n": 107,
-          "wins": 61,
+          "wins": 64,
           "losses": 26,
           "voids": 0,
-          "pending": 11,
-          "review_required": 5,
+          "pending": 7,
+          "review_required": 6,
           "unverifiable": 4,
-          "wr": 0.7011494252873564,
-          "profit": 5.656999999999999,
-          "roi": 0.06502298850574711,
-          "pf": 1.217576923076923,
+          "wr": 0.7111111111111111,
+          "profit": 7.023,
+          "roi": 0.07803333333333333,
+          "pf": 1.2701153846153845,
           "max_dd": 6.267,
           "avg_odds": 1.558519607843138,
           "avg_ev": -0.10218007323575072,
@@ -13971,6 +14099,18 @@
             {
               "at": "2026-11-21T15:01:07.519230Z",
               "equity": 5.657
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": 5.997
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": 6.54
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": 7.023
             }
           ]
         },
@@ -15771,8 +15911,8 @@
             "ev": -0.08041940691623961,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
+            "status": "REVIEW_REQUIRED",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
             "profit_1u": null
           },
           {
@@ -16011,9 +16151,9 @@
             "ev": -0.13111842810453966,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.3400000000000001
           },
           {
             "prediction_id": "2d1e5fcc7fb7d0bb899f35ab",
@@ -16031,9 +16171,9 @@
             "ev": -0.03442944290241445,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.5429999999999999
           },
           {
             "prediction_id": "f8f6bbc6046807846d05cc3a",
@@ -16071,9 +16211,9 @@
             "ev": -0.16637009735670927,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.4830000000000001
           },
           {
             "prediction_id": "f0d38836eaff38b9b6625095",
@@ -16120,16 +16260,16 @@
       "ALL_PICKS": {
         "metrics": {
           "n": 159,
-          "wins": 79,
-          "losses": 52,
+          "wins": 83,
+          "losses": 54,
           "voids": 0,
-          "pending": 17,
-          "review_required": 7,
+          "pending": 10,
+          "review_required": 8,
           "unverifiable": 4,
-          "wr": 0.6030534351145038,
-          "profit": 0.045000000000000595,
-          "roi": 0.00034351145038168394,
-          "pf": 1.0008653846153845,
+          "wr": 0.6058394160583942,
+          "profit": 0.691000000000001,
+          "roi": 0.005043795620437963,
+          "pf": 1.0127962962962962,
           "max_dd": 13.158000000000001,
           "avg_odds": 2.0495974025974033,
           "avg_ev": 0.18812991489167843,
@@ -16620,15 +16760,15 @@
               "equity": -1.064
             },
             {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -2.064
+            },
+            {
               "at": "2026-11-20T23:00:05.886170Z",
-              "equity": -0.608
+              "equity": -1.608
             },
             {
               "at": "2026-11-21T03:00:05.813962Z",
-              "equity": 0.232
-            },
-            {
-              "at": "2026-11-20T23:00:05.886170Z",
               "equity": -0.768
             },
             {
@@ -16637,27 +16777,51 @@
             },
             {
               "at": "2026-11-20T23:00:05.886170Z",
-              "equity": -1.328
+              "equity": -2.768
+            },
+            {
+              "at": "2026-11-20T23:00:05.886170Z",
+              "equity": -2.328
             },
             {
               "at": "2026-11-21T03:00:05.813962Z",
-              "equity": -0.559
+              "equity": -1.559
             },
             {
               "at": "2026-11-21T15:01:07.519230Z",
-              "equity": -0.445
-            },
-            {
-              "at": "2026-11-21T19:01:06.060387Z",
               "equity": -1.445
             },
             {
+              "at": "2026-11-21T19:01:06.060387Z",
+              "equity": -2.445
+            },
+            {
               "at": "2026-11-21T15:01:07.519230Z",
-              "equity": -0.365
+              "equity": -1.365
             },
             {
               "at": "2026-11-21T19:01:06.060387Z",
-              "equity": 0.045
+              "equity": -0.955
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -1.955
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -0.675
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": -0.335
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": 0.208
+            },
+            {
+              "at": "2026-11-21T23:00:05.607060Z",
+              "equity": 0.691
             }
           ]
         },
@@ -19278,9 +19442,9 @@
             "ev": 0.1306246742799715,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "586da227bfb6dbf1bd3199b5",
@@ -19298,8 +19462,8 @@
             "ev": -0.08041940691623961,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
+            "status": "REVIEW_REQUIRED",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
             "profit_1u": null
           },
           {
@@ -19678,9 +19842,9 @@
             "ev": 0.0846730729043359,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "a37713b7e0351571a51d7e21",
@@ -19698,9 +19862,9 @@
             "ev": 0.1723322565186527,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 1.2799999999999998
           },
           {
             "prediction_id": "a7b74ec6bb6f86e2b1ecc8f8",
@@ -19718,9 +19882,9 @@
             "ev": -0.13111842810453966,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.3400000000000001
           },
           {
             "prediction_id": "6277b698afb3daa546601fd4",
@@ -19758,9 +19922,9 @@
             "ev": -0.03442944290241445,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.5429999999999999
           },
           {
             "prediction_id": "f8f6bbc6046807846d05cc3a",
@@ -19798,9 +19962,9 @@
             "ev": -0.16637009735670927,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-21T23:00:05.607060Z",
+            "profit_1u": 0.4830000000000001
           },
           {
             "prediction_id": "f0d38836eaff38b9b6625095",
@@ -19927,16 +20091,16 @@
           {
             "label": "2.00-2.49",
             "n": 15,
-            "wins": 5,
-            "losses": 6,
+            "wins": 6,
+            "losses": 8,
             "voids": 0,
-            "pending": 4,
+            "pending": 1,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.45454545454545453,
-            "profit": -0.04999999999999938,
-            "roi": -0.004545454545454489,
-            "pf": 0.9916666666666668,
+            "wr": 0.42857142857142855,
+            "profit": -0.7699999999999996,
+            "roi": -0.05499999999999997,
+            "pf": 0.90375,
             "max_dd": 2.86,
             "avg_odds": 2.194,
             "avg_ev": 0.22732552547222404,
@@ -19979,12 +20143,24 @@
                 "equity": -0.13
               },
               {
-                "at": "2026-11-21T19:01:06.060387Z",
+                "at": "2026-11-21T23:00:05.607060Z",
                 "equity": -1.13
               },
               {
+                "at": "2026-11-21T19:01:06.060387Z",
+                "equity": -2.13
+              },
+              {
                 "at": "2026-11-21T15:01:07.519230Z",
-                "equity": -0.05
+                "equity": -1.05
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -2.05
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -0.77
               }
             ]
           },
@@ -20205,16 +20381,16 @@
             "label": "5-10%",
             "n": 3,
             "wins": 1,
-            "losses": 1,
+            "losses": 2,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.5,
-            "profit": -0.15999999999999992,
-            "roi": -0.07999999999999996,
-            "pf": 0.8400000000000001,
-            "max_dd": 1.0,
+            "wr": 0.3333333333333333,
+            "profit": -1.16,
+            "roi": -0.38666666666666666,
+            "pf": 0.42000000000000004,
+            "max_dd": 2.0,
             "avg_odds": 1.9933333333333334,
             "avg_ev": 0.08005473710114012,
             "avg_probability": 0.5432960074529641,
@@ -20226,22 +20402,26 @@
               {
                 "at": "2026-11-19T23:00:08.749876Z",
                 "equity": -0.16
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -1.16
               }
             ]
           },
           {
             "label": "10-20%",
             "n": 10,
-            "wins": 4,
-            "losses": 2,
+            "wins": 5,
+            "losses": 3,
             "voids": 0,
-            "pending": 4,
+            "pending": 2,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.6666666666666666,
-            "profit": 1.6500000000000004,
-            "roi": 0.2750000000000001,
-            "pf": 1.8250000000000002,
+            "wr": 0.625,
+            "profit": 1.9300000000000002,
+            "roi": 0.24125000000000002,
+            "pf": 1.6433333333333333,
             "max_dd": 2.0,
             "avg_odds": 2.0020999999999995,
             "avg_ev": 0.14744644308623683,
@@ -20264,12 +20444,20 @@
                 "equity": 0.4
               },
               {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -0.6
+              },
+              {
                 "at": "2026-11-21T03:00:05.813962Z",
-                "equity": 1.24
+                "equity": 0.24
               },
               {
                 "at": "2026-11-21T19:01:06.060387Z",
-                "equity": 1.65
+                "equity": 0.65
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 1.93
               }
             ]
           },
@@ -20448,16 +20636,16 @@
           {
             "label": "1.00-1.49",
             "n": 52,
-            "wins": 34,
+            "wins": 36,
             "losses": 8,
             "voids": 0,
-            "pending": 6,
+            "pending": 4,
             "review_required": 4,
             "unverifiable": 0,
-            "wr": 0.8095238095238095,
-            "profit": 1.3389999999999993,
-            "roi": 0.031880952380952364,
-            "pf": 1.1673749999999998,
+            "wr": 0.8181818181818182,
+            "profit": 2.1619999999999995,
+            "roi": 0.049136363636363624,
+            "pf": 1.2702499999999999,
             "max_dd": 2.9000000000000004,
             "avg_odds": 1.2885384615384616,
             "avg_ev": -0.22167600418990632,
@@ -20630,22 +20818,30 @@
               {
                 "at": "2026-11-21T15:01:07.519230Z",
                 "equity": 1.339
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 1.679
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 2.162
               }
             ]
           },
           {
             "label": "1.50-1.99",
             "n": 37,
-            "wins": 20,
+            "wins": 21,
             "losses": 12,
             "voids": 0,
-            "pending": 4,
-            "review_required": 1,
+            "pending": 2,
+            "review_required": 2,
             "unverifiable": 0,
-            "wr": 0.625,
-            "profit": 1.5429999999999993,
-            "roi": 0.04821874999999998,
-            "pf": 1.1285833333333335,
+            "wr": 0.6363636363636364,
+            "profit": 2.0859999999999994,
+            "roi": 0.06321212121212119,
+            "pf": 1.1738333333333333,
             "max_dd": 3.5950000000000006,
             "avg_odds": 1.7048648648648643,
             "avg_ev": -0.0443400909664029,
@@ -20778,6 +20974,10 @@
               {
                 "at": "2026-11-21T03:00:05.813962Z",
                 "equity": 1.543
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 2.086
               }
             ]
           },
@@ -20916,16 +21116,16 @@
           {
             "label": "<0%",
             "n": 76,
-            "wins": 47,
+            "wins": 50,
             "losses": 15,
             "voids": 0,
-            "pending": 9,
-            "review_required": 5,
+            "pending": 5,
+            "review_required": 6,
             "unverifiable": 0,
-            "wr": 0.7580645161290323,
-            "profit": 4.632999999999998,
-            "roi": 0.07472580645161288,
-            "pf": 1.3088666666666662,
+            "wr": 0.7692307692307693,
+            "profit": 5.998999999999999,
+            "roi": 0.09229230769230767,
+            "pf": 1.3999333333333328,
             "max_dd": 3.148,
             "avg_odds": 1.4282236842105271,
             "avg_ev": -0.18400232789906013,
@@ -21178,6 +21378,18 @@
               {
                 "at": "2026-11-21T15:01:07.519230Z",
                 "equity": 4.633
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 4.973
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 5.516
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 5.999
               }
             ]
           },
@@ -21388,16 +21600,16 @@
           {
             "label": "1.00-1.49",
             "n": 56,
-            "wins": 38,
+            "wins": 40,
             "losses": 8,
             "voids": 0,
-            "pending": 6,
+            "pending": 4,
             "review_required": 4,
             "unverifiable": 0,
-            "wr": 0.8260869565217391,
-            "profit": 2.7669999999999995,
-            "roi": 0.060152173913043464,
-            "pf": 1.3458749999999997,
+            "wr": 0.8333333333333334,
+            "profit": 3.5899999999999994,
+            "roi": 0.07479166666666666,
+            "pf": 1.4487499999999998,
             "max_dd": 2.435,
             "avg_odds": 1.2934285714285718,
             "avg_ev": -0.19266458484221297,
@@ -21586,22 +21798,30 @@
               {
                 "at": "2026-11-21T19:01:06.060387Z",
                 "equity": 2.767
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 3.107
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 3.59
               }
             ]
           },
           {
             "label": "1.50-1.99",
             "n": 43,
-            "wins": 23,
+            "wins": 24,
             "losses": 14,
             "voids": 0,
-            "pending": 5,
-            "review_required": 1,
+            "pending": 3,
+            "review_required": 2,
             "unverifiable": 0,
-            "wr": 0.6216216216216216,
-            "profit": 1.7629999999999988,
-            "roi": 0.047648648648648616,
-            "pf": 1.1259285714285714,
+            "wr": 0.631578947368421,
+            "profit": 2.3059999999999987,
+            "roi": 0.06068421052631576,
+            "pf": 1.1647142857142858,
             "max_dd": 3.755000000000001,
             "avg_odds": 1.7193255813953487,
             "avg_ev": -0.02591889973466777,
@@ -21754,22 +21974,26 @@
               {
                 "at": "2026-11-21T03:00:05.813962Z",
                 "equity": 1.763
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 2.306
               }
             ]
           },
           {
             "label": "2.00-2.49",
             "n": 27,
-            "wins": 11,
-            "losses": 12,
+            "wins": 12,
+            "losses": 14,
             "voids": 0,
-            "pending": 4,
+            "pending": 1,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.4782608695652174,
-            "profit": 0.9650000000000016,
-            "roi": 0.0419565217391305,
-            "pf": 1.0804166666666668,
+            "wr": 0.46153846153846156,
+            "profit": 0.24500000000000144,
+            "roi": 0.009423076923076978,
+            "pf": 1.0175,
             "max_dd": 6.859999999999999,
             "avg_odds": 2.1864814814814815,
             "avg_ev": 0.20764677127223644,
@@ -21860,12 +22084,24 @@
                 "equity": 0.885
               },
               {
-                "at": "2026-11-21T19:01:06.060387Z",
+                "at": "2026-11-21T23:00:05.607060Z",
                 "equity": -0.115
               },
               {
+                "at": "2026-11-21T19:01:06.060387Z",
+                "equity": -1.115
+              },
+              {
                 "at": "2026-11-21T15:01:07.519230Z",
-                "equity": 0.965
+                "equity": -0.035
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -1.035
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 0.245
               }
             ]
           },
@@ -22034,16 +22270,16 @@
           {
             "label": "<0%",
             "n": 76,
-            "wins": 47,
+            "wins": 50,
             "losses": 15,
             "voids": 0,
-            "pending": 9,
-            "review_required": 5,
+            "pending": 5,
+            "review_required": 6,
             "unverifiable": 0,
-            "wr": 0.7580645161290323,
-            "profit": 4.632999999999998,
-            "roi": 0.07472580645161288,
-            "pf": 1.3088666666666662,
+            "wr": 0.7692307692307693,
+            "profit": 5.998999999999999,
+            "roi": 0.09229230769230767,
+            "pf": 1.3999333333333328,
             "max_dd": 3.148,
             "avg_odds": 1.4282236842105271,
             "avg_ev": -0.18400232789906013,
@@ -22296,6 +22532,18 @@
               {
                 "at": "2026-11-21T15:01:07.519230Z",
                 "equity": 4.633
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 4.973
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 5.516
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 5.999
               }
             ]
           },
@@ -22367,16 +22615,16 @@
             "label": "5-10%",
             "n": 10,
             "wins": 4,
-            "losses": 5,
+            "losses": 6,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.4444444444444444,
-            "profit": -1.4699999999999998,
-            "roi": -0.1633333333333333,
-            "pf": 0.7060000000000001,
-            "max_dd": 3.0,
+            "wr": 0.4,
+            "profit": -2.4699999999999998,
+            "roi": -0.24699999999999997,
+            "pf": 0.5883333333333334,
+            "max_dd": 4.0,
             "avg_odds": 1.9329999999999998,
             "avg_ev": 0.07529678728816094,
             "avg_probability": 0.560194398853473,
@@ -22416,22 +22664,26 @@
               {
                 "at": "2026-11-19T23:00:08.749876Z",
                 "equity": -1.47
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -2.47
               }
             ]
           },
           {
             "label": "10-20%",
             "n": 15,
-            "wins": 6,
-            "losses": 4,
+            "wins": 7,
+            "losses": 5,
             "voids": 0,
-            "pending": 5,
+            "pending": 3,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.6,
-            "profit": 1.8200000000000003,
-            "roi": 0.18200000000000002,
-            "pf": 1.455,
+            "wr": 0.5833333333333334,
+            "profit": 2.1,
+            "roi": 0.17500000000000002,
+            "pf": 1.42,
             "max_dd": 4.0,
             "avg_odds": 2.0134,
             "avg_ev": 0.14649234594758548,
@@ -22470,12 +22722,20 @@
                 "equity": 0.57
               },
               {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": -0.43
+              },
+              {
                 "at": "2026-11-21T03:00:05.813962Z",
-                "equity": 1.41
+                "equity": 0.41
               },
               {
                 "at": "2026-11-21T19:01:06.060387Z",
-                "equity": 1.82
+                "equity": 0.82
+              },
+              {
+                "at": "2026-11-21T23:00:05.607060Z",
+                "equity": 2.1
               }
             ]
           },
@@ -22679,7 +22939,7 @@
       }
     },
     "calibration": {
-      "n": 131,
+      "n": 137,
       "bins": [
         {
           "bin": "0-10%",
@@ -22713,15 +22973,15 @@
         },
         {
           "bin": "50-60%",
-          "n": 99,
-          "predicted": 0.5480822189934145,
-          "actual": 0.5555555555555556
+          "n": 103,
+          "predicted": 0.547299439292958,
+          "actual": 0.5533980582524272
         },
         {
           "bin": "60-70%",
-          "n": 21,
-          "predicted": 0.6269613890162072,
-          "actual": 0.6666666666666666
+          "n": 23,
+          "predicted": 0.6278427425747848,
+          "actual": 0.6956521739130435
         },
         {
           "bin": "70-80%",
@@ -22742,8 +23002,8 @@
           "actual": 1.0
         }
       ],
-      "brier": 0.22781986774108565,
-      "log_loss": 0.6431597144352256
+      "brier": 0.22680193257316436,
+      "log_loss": 0.6412814089793732
     }
   },
   "source": {
