@@ -1,7 +1,7 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-26T03:00:19.846527Z",
-  "generated_warsaw": "2026-11-26T04:00:19.846527+01:00",
+  "generated_utc": "2026-11-26T07:02:02.096476Z",
+  "generated_warsaw": "2026-11-26T08:02:02.096476+01:00",
   "last_results_sync_utc": "2026-11-26T03:00:09.348824Z",
   "status": "LIVE",
   "singles": [
@@ -3840,6 +3840,40 @@
       "pick_name": "Omar Jasika",
       "pick_probability": 0.5613949191166823,
       "pick_odds": 1.66,
+      "virtual_status": "PENDING",
+      "virtual_profit_1u": null
+    },
+    {
+      "match_id": "495f5270f306da311f004442",
+      "tour": "ATP",
+      "surface": "HARD",
+      "start_utc": "2026-11-26T08:00:00Z",
+      "tournament": "M15 Sharm ElSheikh",
+      "player1": "Connor Doig",
+      "player2": "Saba Purtseladze",
+      "prediction_id": "d3fd18619168eaec7c5177ed",
+      "p1": 0.48618709433048224,
+      "p2": 0.5138129056695178,
+      "ev": null,
+      "decision": "NO_BET",
+      "model_confidence": 0.5541844542925434,
+      "data_quality": 0.8571428571428571,
+      "decision_reason": "real pre-match odds unavailable",
+      "p1_odds": null,
+      "p2_odds": null,
+      "bookmaker": null,
+      "odds_fetched_utc": null,
+      "odds_source_updated_utc": null,
+      "lock_id": null,
+      "locked_utc": null,
+      "settlement_status": null,
+      "settled_utc": null,
+      "profit_1u": null,
+      "settlement_reason": null,
+      "pick_side": "2",
+      "pick_name": "Saba Purtseladze",
+      "pick_probability": 0.5138129056695178,
+      "pick_odds": null,
       "virtual_status": "PENDING",
       "virtual_profit_1u": null
     }
@@ -16809,11 +16843,11 @@
       },
       "NO_BET": {
         "metrics": {
-          "n": 119,
+          "n": 120,
           "wins": 73,
           "losses": 29,
           "voids": 0,
-          "pending": 6,
+          "pending": 7,
           "review_required": 6,
           "unverifiable": 5,
           "wr": 0.7156862745098039,
@@ -16823,7 +16857,7 @@
           "max_dd": 6.267,
           "avg_odds": 1.5455044247787615,
           "avg_ev": -0.10877680995976473,
-          "avg_probability": 0.5804445892758897,
+          "avg_probability": 0.5798893252458366,
           "equity": [
             {
               "at": "2026-11-13T11:00:02.458581Z",
@@ -19615,16 +19649,36 @@
             "status": "PENDING",
             "settled_utc": null,
             "profit_1u": null
+          },
+          {
+            "prediction_id": "d3fd18619168eaec7c5177ed",
+            "match_id": "495f5270f306da311f004442",
+            "tour": "ATP",
+            "player1_name": "Connor Doig",
+            "player2_name": "Saba Purtseladze",
+            "start_utc": "2026-11-26T08:00:00Z",
+            "predicted_utc": "2026-11-26T07:00:25.360953Z",
+            "model_version": "0.2.0",
+            "pick_side": "2",
+            "predicted_winner_name": "Saba Purtseladze",
+            "model_probability": 0.5138129056695178,
+            "offered_odds": null,
+            "ev": null,
+            "selection_group": "NO_BET",
+            "selection_reason": "real pre-match odds unavailable",
+            "status": "PENDING",
+            "settled_utc": null,
+            "profit_1u": null
           }
         ]
       },
       "ALL_PICKS": {
         "metrics": {
-          "n": 188,
+          "n": 189,
           "wins": 98,
           "losses": 64,
           "voids": 0,
-          "pending": 12,
+          "pending": 13,
           "review_required": 9,
           "unverifiable": 5,
           "wr": 0.6049382716049383,
@@ -19634,7 +19688,7 @@
           "max_dd": 13.158000000000001,
           "avg_odds": 2.148137362637363,
           "avg_ev": 0.24461529940423335,
-          "avg_probability": 0.5817497350322003,
+          "avg_probability": 0.5813902809085882,
           "equity": [
             {
               "at": "2026-11-13T11:00:02.458581Z",
@@ -24023,6 +24077,26 @@
             "ev": 1.7843111680045078,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
+            "status": "PENDING",
+            "settled_utc": null,
+            "profit_1u": null
+          },
+          {
+            "prediction_id": "d3fd18619168eaec7c5177ed",
+            "match_id": "495f5270f306da311f004442",
+            "tour": "ATP",
+            "player1_name": "Connor Doig",
+            "player2_name": "Saba Purtseladze",
+            "start_utc": "2026-11-26T08:00:00Z",
+            "predicted_utc": "2026-11-26T07:00:25.360953Z",
+            "model_version": "0.2.0",
+            "pick_side": "2",
+            "predicted_winner_name": "Saba Purtseladze",
+            "model_probability": 0.5138129056695178,
+            "offered_odds": null,
+            "ev": null,
+            "selection_group": "NO_BET",
+            "selection_reason": "real pre-match odds unavailable",
             "status": "PENDING",
             "settled_utc": null,
             "profit_1u": null
