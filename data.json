@@ -1,8 +1,8 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-26T23:00:09.762461Z",
-  "generated_warsaw": "2026-11-27T00:00:09.762461+01:00",
-  "last_results_sync_utc": "2026-11-26T23:00:06.340113Z",
+  "generated_utc": "2026-11-27T03:00:09.957924Z",
+  "generated_warsaw": "2026-11-27T04:00:09.957924+01:00",
+  "last_results_sync_utc": "2026-11-27T03:00:06.375850Z",
   "status": "LIVE",
   "singles": [
     {
@@ -6436,10 +6436,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_2c6d424d80e15d566a28",
       "locked_utc": "2026-11-26T19:00:11.630411Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "WIN",
+      "settled_utc": "2026-11-27T03:00:06.375850Z",
+      "profit_1u": 1.94,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_side": "1",
       "pick_name": "Maria Lourdes Carle",
       "pick_probability": 0.5259751784633692,
@@ -8846,6 +8846,38 @@
       "pick_name": "Genaro Alberto Olivieri",
       "pick_probability": 0.6301972887552604,
       "pick_odds": 3.04
+    },
+    {
+      "match_id": "a7382a157ac3ee9b9d227dd7",
+      "tour": "WTA",
+      "surface": "CLAY",
+      "start_utc": "2026-11-26T21:00:00Z",
+      "tournament": "Argentina Open - Buenos Aires",
+      "player1": "Maria Lourdes Carle",
+      "player2": "Nadia Podoroska",
+      "prediction_id": "0f25e0c4e2374262029945b1",
+      "p1": 0.5259751784633692,
+      "p2": 0.47402482153663084,
+      "ev": 0.5463670246823054,
+      "decision": "PICK",
+      "model_confidence": 0.7393914202962717,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 2.94,
+      "p2_odds": 1.413,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-26T19:00:05.906025Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_2c6d424d80e15d566a28",
+      "locked_utc": "2026-11-26T19:00:11.630411Z",
+      "settlement_status": "WIN",
+      "settled_utc": "2026-11-27T03:00:06.375850Z",
+      "profit_1u": 1.94,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_side": "1",
+      "pick_name": "Maria Lourdes Carle",
+      "pick_probability": 0.5259751784633692,
+      "pick_odds": 2.94
     }
   ],
   "packages": [
@@ -10659,38 +10691,6 @@
     "active_packages": [],
     "awaiting_singles": [
       {
-        "match_id": "a7382a157ac3ee9b9d227dd7",
-        "tour": "WTA",
-        "surface": "CLAY",
-        "start_utc": "2026-11-26T21:00:00Z",
-        "tournament": "Argentina Open - Buenos Aires",
-        "player1": "Maria Lourdes Carle",
-        "player2": "Nadia Podoroska",
-        "prediction_id": "0f25e0c4e2374262029945b1",
-        "p1": 0.5259751784633692,
-        "p2": 0.47402482153663084,
-        "ev": 0.5463670246823054,
-        "decision": "PICK",
-        "model_confidence": 0.7393914202962717,
-        "data_quality": 0.9642857142857143,
-        "decision_reason": "positive EV and quality thresholds passed",
-        "p1_odds": 2.94,
-        "p2_odds": 1.413,
-        "bookmaker": "Marathonbet",
-        "odds_fetched_utc": "2026-11-26T19:00:05.906025Z",
-        "odds_source_updated_utc": null,
-        "lock_id": "LOCK_2c6d424d80e15d566a28",
-        "locked_utc": "2026-11-26T19:00:11.630411Z",
-        "settlement_status": null,
-        "settled_utc": null,
-        "profit_1u": null,
-        "settlement_reason": null,
-        "pick_side": "1",
-        "pick_name": "Maria Lourdes Carle",
-        "pick_probability": 0.5259751784633692,
-        "pick_odds": 2.94
-      },
-      {
         "match_id": "df3f168024485877c42bdf52",
         "tour": "ATP",
         "surface": "HARD",
@@ -11115,6 +11115,38 @@
       }
     ],
     "history_singles": [
+      {
+        "match_id": "a7382a157ac3ee9b9d227dd7",
+        "tour": "WTA",
+        "surface": "CLAY",
+        "start_utc": "2026-11-26T21:00:00Z",
+        "tournament": "Argentina Open - Buenos Aires",
+        "player1": "Maria Lourdes Carle",
+        "player2": "Nadia Podoroska",
+        "prediction_id": "0f25e0c4e2374262029945b1",
+        "p1": 0.5259751784633692,
+        "p2": 0.47402482153663084,
+        "ev": 0.5463670246823054,
+        "decision": "PICK",
+        "model_confidence": 0.7393914202962717,
+        "data_quality": 0.9642857142857143,
+        "decision_reason": "positive EV and quality thresholds passed",
+        "p1_odds": 2.94,
+        "p2_odds": 1.413,
+        "bookmaker": "Marathonbet",
+        "odds_fetched_utc": "2026-11-26T19:00:05.906025Z",
+        "odds_source_updated_utc": null,
+        "lock_id": "LOCK_2c6d424d80e15d566a28",
+        "locked_utc": "2026-11-26T19:00:11.630411Z",
+        "settlement_status": "WIN",
+        "settled_utc": "2026-11-27T03:00:06.375850Z",
+        "profit_1u": 1.94,
+        "settlement_reason": "completed match; pre-match odds recorded",
+        "pick_side": "1",
+        "pick_name": "Maria Lourdes Carle",
+        "pick_probability": 0.5259751784633692,
+        "pick_odds": 2.94
+      },
       {
         "match_id": "b92c7918e5f24483a1127150",
         "tour": "ATP",
@@ -14966,29 +14998,29 @@
     ]
   },
   "metrics": {
-    "n": 71,
-    "wins": 28,
+    "n": 72,
+    "wins": 29,
     "losses": 43,
     "voids": 0,
-    "wr": 0.39436619718309857,
-    "roi": -0.1284084507042254,
+    "wr": 0.4027777777777778,
+    "roi": -0.09968055555555562,
     "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-    "pf": 0.7879767441860466,
+    "pf": 0.8330930232558139,
     "max_dd": 15.29,
-    "equity": -9.117000000000004
+    "equity": -7.177000000000005
   },
   "metrics_by_variant": {
     "SINGLE": {
-      "n": 71,
-      "wins": 28,
+      "n": 72,
+      "wins": 29,
       "losses": 43,
       "voids": 0,
-      "wr": 0.39436619718309857,
-      "roi": -0.1284084507042254,
+      "wr": 0.4027777777777778,
+      "roi": -0.09968055555555562,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-      "pf": 0.7879767441860466,
+      "pf": 0.8330930232558139,
       "max_dd": 15.29,
-      "equity": -9.117000000000004
+      "equity": -7.177000000000005
     },
     "TOP2": {
       "n": 24,
@@ -15017,7 +15049,7 @@
   },
   "status_counts": {
     "SINGLE": {
-      "pending": 6,
+      "pending": 5,
       "review_required": 3
     },
     "TOP2": {
@@ -15314,6 +15346,10 @@
       {
         "at": "2026-11-26T23:00:06.340113Z",
         "equity": -9.117
+      },
+      {
+        "at": "2026-11-27T03:00:06.375850Z",
+        "equity": -7.177
       }
     ],
     "TOP2": [
@@ -15478,16 +15514,16 @@
       "LOCK": {
         "metrics": {
           "n": 71,
-          "wins": 26,
+          "wins": 27,
           "losses": 37,
           "voids": 0,
-          "pending": 5,
+          "pending": 4,
           "review_required": 3,
           "unverifiable": 0,
-          "wr": 0.4126984126984127,
-          "profit": -5.712000000000001,
-          "roi": -0.09066666666666667,
-          "pf": 0.8456216216216215,
+          "wr": 0.421875,
+          "profit": -3.7720000000000007,
+          "roi": -0.05893750000000001,
+          "pf": 0.8980540540540539,
           "max_dd": 12.475000000000001,
           "avg_odds": 3.120690140845072,
           "avg_ev": 0.8127098612857009,
@@ -15744,6 +15780,10 @@
             {
               "at": "2026-11-26T23:00:06.340113Z",
               "equity": -5.712
+            },
+            {
+              "at": "2026-11-27T03:00:06.375850Z",
+              "equity": -3.772
             }
           ]
         },
@@ -17144,9 +17184,9 @@
             "ev": 0.5463670246823054,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-27T03:00:06.375850Z",
+            "profit_1u": 1.94
           },
           {
             "prediction_id": "9643d0948f8f7995d157e080",
@@ -20072,16 +20112,16 @@
       "ALL_PICKS": {
         "metrics": {
           "n": 194,
-          "wins": 101,
+          "wins": 102,
           "losses": 66,
           "voids": 0,
-          "pending": 12,
+          "pending": 11,
           "review_required": 9,
           "unverifiable": 6,
-          "wr": 0.6047904191616766,
-          "profit": 2.942000000000001,
-          "roi": 0.017616766467065875,
-          "pf": 1.0445757575757577,
+          "wr": 0.6071428571428571,
+          "profit": 4.8820000000000014,
+          "roi": 0.02905952380952382,
+          "pf": 1.073969696969697,
           "max_dd": 13.158000000000001,
           "avg_odds": 2.1443582887700536,
           "avg_ev": 0.24189441156533395,
@@ -20754,6 +20794,10 @@
             {
               "at": "2026-11-26T23:00:06.340113Z",
               "equity": 2.942
+            },
+            {
+              "at": "2026-11-27T03:00:06.375850Z",
+              "equity": 4.882
             }
           ]
         },
@@ -24574,9 +24618,9 @@
             "ev": 0.5463670246823054,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "WIN",
+            "settled_utc": "2026-11-27T03:00:06.375850Z",
+            "profit_1u": 1.94
           },
           {
             "prediction_id": "95d35ac7856834a6742beff2",
@@ -24835,16 +24879,16 @@
           {
             "label": "2.50-2.99",
             "n": 16,
-            "wins": 5,
+            "wins": 6,
             "losses": 10,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.3333333333333333,
-            "profit": -1.470000000000001,
-            "roi": -0.09800000000000007,
-            "pf": 0.853,
+            "wr": 0.375,
+            "profit": 0.46999999999999886,
+            "roi": 0.02937499999999993,
+            "pf": 1.047,
             "max_dd": 4.390000000000001,
             "avg_odds": 2.7881249999999995,
             "avg_ev": 0.5117974117439791,
@@ -24909,6 +24953,10 @@
               {
                 "at": "2026-11-25T19:01:04.287237Z",
                 "equity": -1.47
+              },
+              {
+                "at": "2026-11-27T03:00:06.375850Z",
+                "equity": 0.47
               }
             ]
           },
@@ -25268,16 +25316,16 @@
           {
             "label": "50%+",
             "n": 32,
-            "wins": 7,
+            "wins": 8,
             "losses": 19,
             "voids": 0,
-            "pending": 3,
+            "pending": 2,
             "review_required": 3,
             "unverifiable": 0,
-            "wr": 0.2692307692307692,
-            "profit": -5.39,
-            "roi": -0.2073076923076923,
-            "pf": 0.7163157894736841,
+            "wr": 0.2962962962962963,
+            "profit": -3.4499999999999997,
+            "roi": -0.12777777777777777,
+            "pf": 0.8184210526315789,
             "max_dd": 9.0,
             "avg_odds": 4.3690625,
             "avg_ev": 1.546191808769163,
@@ -25386,6 +25434,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": -5.39
+              },
+              {
+                "at": "2026-11-27T03:00:06.375850Z",
+                "equity": -3.45
               }
             ]
           }
@@ -27072,16 +27124,16 @@
           {
             "label": "2.50-2.99",
             "n": 17,
-            "wins": 6,
+            "wins": 7,
             "losses": 10,
             "voids": 0,
-            "pending": 1,
+            "pending": 0,
             "review_required": 0,
             "unverifiable": 0,
-            "wr": 0.375,
-            "profit": 0.28999999999999915,
-            "roi": 0.018124999999999947,
-            "pf": 1.029,
+            "wr": 0.4117647058823529,
+            "profit": 2.229999999999999,
+            "roi": 0.13117647058823523,
+            "pf": 1.2229999999999999,
             "max_dd": 4.390000000000001,
             "avg_odds": 2.786470588235294,
             "avg_ev": 0.5139733387777707,
@@ -27150,6 +27202,10 @@
               {
                 "at": "2026-11-25T19:01:04.287237Z",
                 "equity": 0.29
+              },
+              {
+                "at": "2026-11-27T03:00:06.375850Z",
+                "equity": 2.23
               }
             ]
           },
@@ -27922,16 +27978,16 @@
           {
             "label": "50%+",
             "n": 33,
-            "wins": 8,
+            "wins": 9,
             "losses": 19,
             "voids": 0,
-            "pending": 3,
+            "pending": 2,
             "review_required": 3,
             "unverifiable": 0,
-            "wr": 0.2962962962962963,
-            "profit": -3.63,
-            "roi": -0.13444444444444445,
-            "pf": 0.8089473684210525,
+            "wr": 0.32142857142857145,
+            "profit": -1.69,
+            "roi": -0.06035714285714285,
+            "pf": 0.9110526315789473,
             "max_dd": 8.0,
             "avg_odds": 4.320303030303031,
             "avg_ev": 1.5159674561191412,
@@ -28044,6 +28100,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": -3.63
+              },
+              {
+                "at": "2026-11-27T03:00:06.375850Z",
+                "equity": -1.69
               }
             ]
           }
@@ -28051,7 +28111,7 @@
       }
     },
     "calibration": {
-      "n": 167,
+      "n": 168,
       "bins": [
         {
           "bin": "0-10%",
@@ -28085,9 +28145,9 @@
         },
         {
           "bin": "50-60%",
-          "n": 121,
-          "predicted": 0.5482149280180797,
-          "actual": 0.5537190082644629
+          "n": 122,
+          "predicted": 0.5480326349889427,
+          "actual": 0.5573770491803278
         },
         {
           "bin": "60-70%",
@@ -28114,8 +28174,8 @@
           "actual": 1.0
         }
       ],
-      "brier": 0.2277804969755231,
-      "log_loss": 0.643921247578608
+      "brier": 0.22776215789491186,
+      "log_loss": 0.643912795251301
     }
   },
   "source": {
