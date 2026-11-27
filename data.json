@@ -1,42 +1,10 @@
 {
   "schema": "jev-tennis-public-v7",
-  "generated_utc": "2026-11-27T19:01:07.738981Z",
-  "generated_warsaw": "2026-11-27T20:01:07.738981+01:00",
-  "last_results_sync_utc": "2026-11-27T19:01:04.370515Z",
+  "generated_utc": "2026-11-27T23:00:10.738522Z",
+  "generated_warsaw": "2026-11-28T00:00:10.738522+01:00",
+  "last_results_sync_utc": "2026-11-27T23:00:06.141842Z",
   "status": "LIVE",
   "singles": [
-    {
-      "match_id": "d6df2e2ec123eeef45262087",
-      "tour": "WTA",
-      "surface": "CLAY",
-      "start_utc": "2026-11-27T19:30:00Z",
-      "tournament": "Argentina Open - Buenos Aires",
-      "player1": "Guiomar Maristany Zuleta De Reales",
-      "player2": "Maria Lourdes Carle",
-      "prediction_id": "b293525f000a1a3eeb474c3f",
-      "p1": 0.42351667624983313,
-      "p2": 0.5764833237501669,
-      "ev": 0.7698038039130122,
-      "decision": "PICK",
-      "model_confidence": 0.8273758977819333,
-      "data_quality": 1.0,
-      "decision_reason": "positive EV and quality thresholds passed",
-      "p1_odds": 1.384,
-      "p2_odds": 3.07,
-      "bookmaker": "Marathonbet",
-      "odds_fetched_utc": "2026-11-27T11:00:06.092294Z",
-      "odds_source_updated_utc": null,
-      "lock_id": "LOCK_193de61f4993b758f1f6",
-      "locked_utc": "2026-11-27T11:00:08.892286Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
-      "pick_side": "2",
-      "pick_name": "Maria Lourdes Carle",
-      "pick_probability": 0.5764833237501669,
-      "pick_odds": 3.07
-    },
     {
       "match_id": "004604dd4bdbbc7acd4b4792",
       "tour": "ATP",
@@ -4046,8 +4014,8 @@
       "pick_name": "Laura Samson",
       "pick_probability": 0.7541826445060582,
       "pick_odds": 1.283,
-      "virtual_status": "PENDING",
-      "virtual_profit_1u": null
+      "virtual_status": "LOSS",
+      "virtual_profit_1u": -1.0
     },
     {
       "match_id": "537117f745472bd0869e6b36",
@@ -6968,10 +6936,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_920470b9c62ab8abcda5",
       "locked_utc": "2026-11-27T15:00:08.592299Z",
-      "settlement_status": null,
-      "settled_utc": null,
+      "settlement_status": "REVIEW_REQUIRED",
+      "settled_utc": "2026-11-27T23:00:06.141842Z",
       "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_reason": "WALKOVER",
       "pick_side": "2",
       "pick_name": "Veronika Erjavec",
       "pick_probability": 0.5389467591641313,
@@ -7000,10 +6968,10 @@
       "odds_source_updated_utc": null,
       "lock_id": "LOCK_193de61f4993b758f1f6",
       "locked_utc": "2026-11-27T11:00:08.892286Z",
-      "settlement_status": null,
-      "settled_utc": null,
-      "profit_1u": null,
-      "settlement_reason": null,
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-27T23:00:06.141842Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
       "pick_side": "2",
       "pick_name": "Maria Lourdes Carle",
       "pick_probability": 0.5764833237501669,
@@ -9602,6 +9570,70 @@
       "pick_name": "Sarah Iliev",
       "pick_probability": 0.5050360004896391,
       "pick_odds": 2.32
+    },
+    {
+      "match_id": "2ae2797af465aece2ab9e7f2",
+      "tour": "WTA",
+      "surface": "CLAY",
+      "start_utc": "2026-11-27T18:00:00Z",
+      "tournament": "Argentina Open - Buenos Aires",
+      "player1": "Carole Monnet",
+      "player2": "Veronika Erjavec",
+      "prediction_id": "205e829caaa555c4165d8800",
+      "p1": 0.46105324083586874,
+      "p2": 0.5389467591641313,
+      "ev": 0.10484085628646889,
+      "decision": "PICK",
+      "model_confidence": 0.7099525114181812,
+      "data_quality": 0.9642857142857143,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 1.787,
+      "p2_odds": 2.05,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-27T11:00:06.092294Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_920470b9c62ab8abcda5",
+      "locked_utc": "2026-11-27T15:00:08.592299Z",
+      "settlement_status": "REVIEW_REQUIRED",
+      "settled_utc": "2026-11-27T23:00:06.141842Z",
+      "profit_1u": null,
+      "settlement_reason": "WALKOVER",
+      "pick_side": "2",
+      "pick_name": "Veronika Erjavec",
+      "pick_probability": 0.5389467591641313,
+      "pick_odds": 2.05
+    },
+    {
+      "match_id": "d6df2e2ec123eeef45262087",
+      "tour": "WTA",
+      "surface": "CLAY",
+      "start_utc": "2026-11-27T19:30:00Z",
+      "tournament": "Argentina Open - Buenos Aires",
+      "player1": "Guiomar Maristany Zuleta De Reales",
+      "player2": "Maria Lourdes Carle",
+      "prediction_id": "b293525f000a1a3eeb474c3f",
+      "p1": 0.42351667624983313,
+      "p2": 0.5764833237501669,
+      "ev": 0.7698038039130122,
+      "decision": "PICK",
+      "model_confidence": 0.8273758977819333,
+      "data_quality": 1.0,
+      "decision_reason": "positive EV and quality thresholds passed",
+      "p1_odds": 1.384,
+      "p2_odds": 3.07,
+      "bookmaker": "Marathonbet",
+      "odds_fetched_utc": "2026-11-27T11:00:06.092294Z",
+      "odds_source_updated_utc": null,
+      "lock_id": "LOCK_193de61f4993b758f1f6",
+      "locked_utc": "2026-11-27T11:00:08.892286Z",
+      "settlement_status": "LOSS",
+      "settled_utc": "2026-11-27T23:00:06.141842Z",
+      "profit_1u": -1.0,
+      "settlement_reason": "completed match; pre-match odds recorded",
+      "pick_side": "2",
+      "pick_name": "Maria Lourdes Carle",
+      "pick_probability": 0.5764833237501669,
+      "pick_odds": 3.07
     }
   ],
   "packages": [
@@ -9610,10 +9642,10 @@
       "variant": "TOP2",
       "created_utc": "2026-11-27T11:00:08.892286Z",
       "combined_odds": 8.289,
-      "status": "PENDING",
-      "settled_utc": null,
-      "profit_1u": null,
-      "reason": null,
+      "status": "LOSS",
+      "settled_utc": "2026-11-27T23:00:06.141842Z",
+      "profit_1u": -1.0,
+      "reason": "at least one leg lost",
       "legs": [
         {
           "match_id": "d6df2e2ec123eeef45262087",
@@ -9623,9 +9655,9 @@
           "odds": 3.07,
           "lock_id": "LOCK_193de61f4993b758f1f6",
           "start_utc": "2026-11-27T19:30:00Z",
-          "settled_utc": null,
-          "profit_1u": null,
-          "status": "PENDING"
+          "settled_utc": "2026-11-27T23:00:06.141842Z",
+          "profit_1u": -1.0,
+          "status": "LOSS"
         },
         {
           "match_id": "004604dd4bdbbc7acd4b4792",
@@ -9660,9 +9692,9 @@
           "odds": 3.07,
           "lock_id": "LOCK_193de61f4993b758f1f6",
           "start_utc": "2026-11-27T19:30:00Z",
-          "settled_utc": null,
-          "profit_1u": null,
-          "status": "PENDING"
+          "settled_utc": "2026-11-27T23:00:06.141842Z",
+          "profit_1u": -1.0,
+          "status": "LOSS"
         },
         {
           "match_id": "004604dd4bdbbc7acd4b4792",
@@ -11503,38 +11535,6 @@
   "views": {
     "active_singles": [
       {
-        "match_id": "d6df2e2ec123eeef45262087",
-        "tour": "WTA",
-        "surface": "CLAY",
-        "start_utc": "2026-11-27T19:30:00Z",
-        "tournament": "Argentina Open - Buenos Aires",
-        "player1": "Guiomar Maristany Zuleta De Reales",
-        "player2": "Maria Lourdes Carle",
-        "prediction_id": "b293525f000a1a3eeb474c3f",
-        "p1": 0.42351667624983313,
-        "p2": 0.5764833237501669,
-        "ev": 0.7698038039130122,
-        "decision": "PICK",
-        "model_confidence": 0.8273758977819333,
-        "data_quality": 1.0,
-        "decision_reason": "positive EV and quality thresholds passed",
-        "p1_odds": 1.384,
-        "p2_odds": 3.07,
-        "bookmaker": "Marathonbet",
-        "odds_fetched_utc": "2026-11-27T11:00:06.092294Z",
-        "odds_source_updated_utc": null,
-        "lock_id": "LOCK_193de61f4993b758f1f6",
-        "locked_utc": "2026-11-27T11:00:08.892286Z",
-        "settlement_status": null,
-        "settled_utc": null,
-        "profit_1u": null,
-        "settlement_reason": null,
-        "pick_side": "2",
-        "pick_name": "Maria Lourdes Carle",
-        "pick_probability": 0.5764833237501669,
-        "pick_odds": 3.07
-      },
-      {
         "match_id": "004604dd4bdbbc7acd4b4792",
         "tour": "ATP",
         "surface": "HARD",
@@ -11567,45 +11567,7 @@
         "pick_odds": 2.7
       }
     ],
-    "active_packages": [
-      {
-        "package_id": "PKG_db96def186700a1da882ac0f",
-        "variant": "TOP2",
-        "created_utc": "2026-11-27T11:00:08.892286Z",
-        "combined_odds": 8.289,
-        "status": "PENDING",
-        "settled_utc": null,
-        "profit_1u": null,
-        "reason": null,
-        "legs": [
-          {
-            "match_id": "d6df2e2ec123eeef45262087",
-            "prediction_id": "b293525f000a1a3eeb474c3f",
-            "players": "Guiomar Maristany Zuleta De Reales — Maria Lourdes Carle",
-            "pick": "Maria Lourdes Carle",
-            "odds": 3.07,
-            "lock_id": "LOCK_193de61f4993b758f1f6",
-            "start_utc": "2026-11-27T19:30:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
-          },
-          {
-            "match_id": "004604dd4bdbbc7acd4b4792",
-            "prediction_id": "b4785b0194928c70d8b7eacf",
-            "players": "Omar Jasika — Tristan Schoolkate",
-            "pick": "Omar Jasika",
-            "odds": 2.7,
-            "lock_id": "LOCK_fe05df145e66e635939c",
-            "start_utc": "2026-11-28T02:00:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
-          }
-        ],
-        "dependency": "different matches; shared model/data-source risk"
-      }
-    ],
+    "active_packages": [],
     "awaiting_singles": [
       {
         "match_id": "2ae2797af465aece2ab9e7f2",
@@ -11630,10 +11592,10 @@
         "odds_source_updated_utc": null,
         "lock_id": "LOCK_920470b9c62ab8abcda5",
         "locked_utc": "2026-11-27T15:00:08.592299Z",
-        "settlement_status": null,
-        "settled_utc": null,
+        "settlement_status": "REVIEW_REQUIRED",
+        "settled_utc": "2026-11-27T23:00:06.141842Z",
         "profit_1u": null,
-        "settlement_reason": null,
+        "settlement_reason": "WALKOVER",
         "pick_side": "2",
         "pick_name": "Veronika Erjavec",
         "pick_probability": 0.5389467591641313,
@@ -11995,6 +11957,38 @@
       }
     ],
     "history_singles": [
+      {
+        "match_id": "d6df2e2ec123eeef45262087",
+        "tour": "WTA",
+        "surface": "CLAY",
+        "start_utc": "2026-11-27T19:30:00Z",
+        "tournament": "Argentina Open - Buenos Aires",
+        "player1": "Guiomar Maristany Zuleta De Reales",
+        "player2": "Maria Lourdes Carle",
+        "prediction_id": "b293525f000a1a3eeb474c3f",
+        "p1": 0.42351667624983313,
+        "p2": 0.5764833237501669,
+        "ev": 0.7698038039130122,
+        "decision": "PICK",
+        "model_confidence": 0.8273758977819333,
+        "data_quality": 1.0,
+        "decision_reason": "positive EV and quality thresholds passed",
+        "p1_odds": 1.384,
+        "p2_odds": 3.07,
+        "bookmaker": "Marathonbet",
+        "odds_fetched_utc": "2026-11-27T11:00:06.092294Z",
+        "odds_source_updated_utc": null,
+        "lock_id": "LOCK_193de61f4993b758f1f6",
+        "locked_utc": "2026-11-27T11:00:08.892286Z",
+        "settlement_status": "LOSS",
+        "settled_utc": "2026-11-27T23:00:06.141842Z",
+        "profit_1u": -1.0,
+        "settlement_reason": "completed match; pre-match odds recorded",
+        "pick_side": "2",
+        "pick_name": "Maria Lourdes Carle",
+        "pick_probability": 0.5764833237501669,
+        "pick_odds": 3.07
+      },
       {
         "match_id": "2b6d8e74e12ac198454c1ff5",
         "tour": "WTA",
@@ -14462,6 +14456,43 @@
     ],
     "history_packages": [
       {
+        "package_id": "PKG_db96def186700a1da882ac0f",
+        "variant": "TOP2",
+        "created_utc": "2026-11-27T11:00:08.892286Z",
+        "combined_odds": 8.289,
+        "status": "LOSS",
+        "settled_utc": "2026-11-27T23:00:06.141842Z",
+        "profit_1u": -1.0,
+        "reason": "at least one leg lost",
+        "legs": [
+          {
+            "match_id": "d6df2e2ec123eeef45262087",
+            "prediction_id": "b293525f000a1a3eeb474c3f",
+            "players": "Guiomar Maristany Zuleta De Reales — Maria Lourdes Carle",
+            "pick": "Maria Lourdes Carle",
+            "odds": 3.07,
+            "lock_id": "LOCK_193de61f4993b758f1f6",
+            "start_utc": "2026-11-27T19:30:00Z",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0,
+            "status": "LOSS"
+          },
+          {
+            "match_id": "004604dd4bdbbc7acd4b4792",
+            "prediction_id": "b4785b0194928c70d8b7eacf",
+            "players": "Omar Jasika — Tristan Schoolkate",
+            "pick": "Omar Jasika",
+            "odds": 2.7,
+            "lock_id": "LOCK_fe05df145e66e635939c",
+            "start_utc": "2026-11-28T02:00:00Z",
+            "settled_utc": null,
+            "profit_1u": null,
+            "status": "PENDING"
+          }
+        ],
+        "dependency": "different matches; shared model/data-source risk"
+      },
+      {
         "package_id": "PKG_48fe8a98b1b00ee03940785a",
         "variant": "TOP3",
         "created_utc": "2026-11-27T11:00:08.892286Z",
@@ -14479,9 +14510,9 @@
             "odds": 3.07,
             "lock_id": "LOCK_193de61f4993b758f1f6",
             "start_utc": "2026-11-27T19:30:00Z",
-            "settled_utc": null,
-            "profit_1u": null,
-            "status": "PENDING"
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0,
+            "status": "LOSS"
           },
           {
             "match_id": "004604dd4bdbbc7acd4b4792",
@@ -16161,41 +16192,41 @@
     ]
   },
   "metrics": {
-    "n": 77,
+    "n": 78,
     "wins": 29,
-    "losses": 48,
+    "losses": 49,
     "voids": 0,
-    "wr": 0.37662337662337664,
-    "roi": -0.1581428571428572,
+    "wr": 0.3717948717948718,
+    "roi": -0.1689358974358975,
     "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-    "pf": 0.7463125,
+    "pf": 0.7310816326530613,
     "max_dd": 15.29,
-    "equity": -12.177000000000005
+    "equity": -13.177000000000005
   },
   "metrics_by_variant": {
     "SINGLE": {
-      "n": 77,
+      "n": 78,
       "wins": 29,
-      "losses": 48,
+      "losses": 49,
       "voids": 0,
-      "wr": 0.37662337662337664,
-      "roi": -0.1581428571428572,
+      "wr": 0.3717948717948718,
+      "roi": -0.1689358974358975,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-      "pf": 0.7463125,
+      "pf": 0.7310816326530613,
       "max_dd": 15.29,
-      "equity": -12.177000000000005
+      "equity": -13.177000000000005
     },
     "TOP2": {
-      "n": 26,
+      "n": 27,
       "wins": 7,
-      "losses": 19,
+      "losses": 20,
       "voids": 0,
-      "wr": 0.2692307692307692,
-      "roi": 0.345013076923077,
+      "wr": 0.25925925925925924,
+      "roi": 0.29519777777777784,
       "roi_denominator": "all financially settled stakes, including returned VOID stakes",
-      "pf": 1.472123157894737,
+      "pf": 1.398517,
       "max_dd": 6.0,
-      "equity": 8.970340000000002
+      "equity": 7.970340000000002
     },
     "TOP3": {
       "n": 15,
@@ -16212,11 +16243,11 @@
   },
   "status_counts": {
     "SINGLE": {
-      "pending": 6,
-      "review_required": 3
+      "pending": 4,
+      "review_required": 4
     },
     "TOP2": {
-      "pending": 2,
+      "pending": 1,
       "review_required": 2
     },
     "TOP3": {
@@ -16533,47 +16564,51 @@
       {
         "at": "2026-11-27T19:01:04.370515Z",
         "equity": -12.177
+      },
+      {
+        "at": "2026-11-27T23:00:06.141842Z",
+        "equity": -13.177
       }
     ],
     "TOP2": [
       {
-        "at": "2026-11-27T19:01:04.370515Z",
+        "at": "2026-11-27T23:00:06.141842Z",
         "equity": -1.0
       },
       {
-        "at": "2026-11-27T15:01:05.232652Z",
+        "at": "2026-11-27T19:01:04.370515Z",
         "equity": -2.0
       },
       {
-        "at": "2026-11-26T11:01:04.804913Z",
+        "at": "2026-11-27T15:01:05.232652Z",
         "equity": -3.0
       },
       {
-        "at": "2026-11-25T19:01:04.287237Z",
+        "at": "2026-11-26T11:01:04.804913Z",
         "equity": -4.0
       },
       {
-        "at": "2026-11-25T11:01:05.020986Z",
-        "equity": 2.1424
+        "at": "2026-11-25T19:01:04.287237Z",
+        "equity": -5.0
       },
       {
-        "at": "2026-11-22T11:01:07.703537Z",
+        "at": "2026-11-25T11:01:05.020986Z",
         "equity": 1.1424
       },
       {
-        "at": "2026-11-21T23:00:05.607060Z",
+        "at": "2026-11-22T11:01:07.703537Z",
         "equity": 0.1424
       },
       {
         "at": "2026-11-21T23:00:05.607060Z",
-        "equity": 3.8848
+        "equity": -0.8576
       },
       {
-        "at": "2026-11-21T19:01:06.060387Z",
+        "at": "2026-11-21T23:00:05.607060Z",
         "equity": 2.8848
       },
       {
-        "at": "2026-11-20T23:00:05.886170Z",
+        "at": "2026-11-21T19:01:06.060387Z",
         "equity": 1.8848
       },
       {
@@ -16582,19 +16617,19 @@
       },
       {
         "at": "2026-11-20T23:00:05.886170Z",
-        "equity": 2.35474
+        "equity": -0.1152
       },
       {
         "at": "2026-11-20T23:00:05.886170Z",
-        "equity": 5.37414
+        "equity": 1.35474
       },
       {
-        "at": "2026-11-19T23:00:08.749876Z",
+        "at": "2026-11-20T23:00:05.886170Z",
         "equity": 4.37414
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
-        "equity": 9.67894
+        "equity": 3.37414
       },
       {
         "at": "2026-11-19T23:00:08.749876Z",
@@ -16609,36 +16644,40 @@
         "equity": 6.67894
       },
       {
-        "at": "2026-11-17T15:01:05.405687Z",
+        "at": "2026-11-19T23:00:08.749876Z",
         "equity": 5.67894
       },
       {
-        "at": "2026-11-17T23:00:05.510838Z",
+        "at": "2026-11-17T15:01:05.405687Z",
         "equity": 4.67894
       },
       {
-        "at": "2026-11-16T23:00:06.321225Z",
+        "at": "2026-11-17T23:00:05.510838Z",
         "equity": 3.67894
       },
       {
-        "at": "2026-11-17T23:00:05.510838Z",
-        "equity": 10.27474
+        "at": "2026-11-16T23:00:06.321225Z",
+        "equity": 2.67894
       },
       {
-        "at": "2026-11-15T23:00:07.910729Z",
+        "at": "2026-11-17T23:00:05.510838Z",
         "equity": 9.27474
       },
       {
         "at": "2026-11-15T23:00:07.910729Z",
-        "equity": 10.97034
+        "equity": 8.27474
       },
       {
-        "at": "2026-11-14T17:00:03.583361Z",
+        "at": "2026-11-15T23:00:07.910729Z",
         "equity": 9.97034
       },
       {
-        "at": "2026-11-13T07:07:30.850702Z",
+        "at": "2026-11-14T17:00:03.583361Z",
         "equity": 8.97034
+      },
+      {
+        "at": "2026-11-13T07:07:30.850702Z",
+        "equity": 7.97034
       }
     ],
     "TOP3": [
@@ -16710,15 +16749,15 @@
         "metrics": {
           "n": 76,
           "wins": 27,
-          "losses": 42,
+          "losses": 43,
           "voids": 0,
-          "pending": 4,
+          "pending": 3,
           "review_required": 3,
           "unverifiable": 0,
-          "wr": 0.391304347826087,
-          "profit": -8.772,
-          "roi": -0.1271304347826087,
-          "pf": 0.791142857142857,
+          "wr": 0.38571428571428573,
+          "profit": -9.772,
+          "roi": -0.1396,
+          "pf": 0.7727441860465115,
           "max_dd": 12.475000000000001,
           "avg_odds": 3.070513157894738,
           "avg_ev": 0.781095745735674,
@@ -16999,6 +17038,10 @@
             {
               "at": "2026-11-27T19:01:04.370515Z",
               "equity": -8.772
+            },
+            {
+              "at": "2026-11-27T23:00:06.141842Z",
+              "equity": -9.772
             }
           ]
         },
@@ -18499,9 +18542,9 @@
             "ev": 0.7698038039130122,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "b4785b0194928c70d8b7eacf",
@@ -18529,15 +18572,15 @@
         "metrics": {
           "n": 134,
           "wins": 76,
-          "losses": 30,
+          "losses": 31,
           "voids": 0,
-          "pending": 16,
-          "review_required": 6,
+          "pending": 14,
+          "review_required": 7,
           "unverifiable": 6,
-          "wr": 0.7169811320754716,
-          "profit": 8.494000000000002,
-          "roi": 0.08013207547169812,
-          "pf": 1.2831333333333328,
+          "wr": 0.7102803738317757,
+          "profit": 7.4940000000000015,
+          "roi": 0.0700373831775701,
+          "pf": 1.2417419354838706,
           "max_dd": 6.267,
           "avg_odds": 1.546112903225807,
           "avg_ev": -0.10651869469775237,
@@ -18966,6 +19009,10 @@
             {
               "at": "2026-11-27T15:01:05.232652Z",
               "equity": 8.494
+            },
+            {
+              "at": "2026-11-27T23:00:06.141842Z",
+              "equity": 7.494
             }
           ]
         },
@@ -21486,8 +21533,8 @@
             "ev": 0.10484085628646889,
             "selection_group": "NO_BET",
             "selection_reason": "daily SINGLE limit reached",
-            "status": "PENDING",
-            "settled_utc": null,
+            "status": "REVIEW_REQUIRED",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
             "profit_1u": null
           },
           {
@@ -21506,9 +21553,9 @@
             "ev": -0.03238366709872742,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "0664b84923384c57a90cc6d1",
@@ -21656,15 +21703,15 @@
         "metrics": {
           "n": 210,
           "wins": 103,
-          "losses": 72,
+          "losses": 74,
           "voids": 0,
-          "pending": 20,
-          "review_required": 9,
+          "pending": 17,
+          "review_required": 10,
           "unverifiable": 6,
-          "wr": 0.5885714285714285,
-          "profit": -0.2779999999999987,
-          "roi": -0.0015885714285714212,
-          "pf": 0.996138888888889,
+          "wr": 0.5819209039548022,
+          "profit": -2.2779999999999987,
+          "roi": -0.012870056497175134,
+          "pf": 0.9692162162162163,
           "max_dd": 13.158000000000001,
           "avg_odds": 2.125385,
           "avg_ev": 0.23077479266694964,
@@ -22369,6 +22416,14 @@
             {
               "at": "2026-11-27T19:01:04.370515Z",
               "equity": -0.278
+            },
+            {
+              "at": "2026-11-27T23:00:06.141842Z",
+              "equity": -1.278
+            },
+            {
+              "at": "2026-11-27T23:00:06.141842Z",
+              "equity": -2.278
             }
           ]
         },
@@ -26369,8 +26424,8 @@
             "ev": 0.10484085628646889,
             "selection_group": "NO_BET",
             "selection_reason": "daily SINGLE limit reached",
-            "status": "PENDING",
-            "settled_utc": null,
+            "status": "REVIEW_REQUIRED",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
             "profit_1u": null
           },
           {
@@ -26389,9 +26444,9 @@
             "ev": -0.03238366709872742,
             "selection_group": "NO_BET",
             "selection_reason": "EV/quality/confidence threshold not passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "b293525f000a1a3eeb474c3f",
@@ -26409,9 +26464,9 @@
             "ev": 0.7698038039130122,
             "selection_group": "LOCK",
             "selection_reason": "positive EV and quality thresholds passed",
-            "status": "PENDING",
-            "settled_utc": null,
-            "profit_1u": null
+            "status": "LOSS",
+            "settled_utc": "2026-11-27T23:00:06.141842Z",
+            "profit_1u": -1.0
           },
           {
             "prediction_id": "0664b84923384c57a90cc6d1",
@@ -26871,15 +26926,15 @@
             "label": "3.00-3.99",
             "n": 15,
             "wins": 3,
-            "losses": 9,
+            "losses": 10,
             "voids": 0,
-            "pending": 2,
+            "pending": 1,
             "review_required": 1,
             "unverifiable": 0,
-            "wr": 0.25,
-            "profit": -1.8600000000000003,
-            "roi": -0.15500000000000003,
-            "pf": 0.7933333333333333,
+            "wr": 0.23076923076923078,
+            "profit": -2.8600000000000003,
+            "roi": -0.22000000000000003,
+            "pf": 0.714,
             "max_dd": 5.74,
             "avg_odds": 3.374,
             "avg_ev": 0.9079400311588607,
@@ -26932,6 +26987,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": -1.86
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": -2.86
               }
             ]
           },
@@ -27244,15 +27303,15 @@
             "label": "50%+",
             "n": 33,
             "wins": 8,
-            "losses": 20,
+            "losses": 21,
             "voids": 0,
-            "pending": 2,
+            "pending": 1,
             "review_required": 3,
             "unverifiable": 0,
-            "wr": 0.2857142857142857,
-            "profit": -4.449999999999999,
-            "roi": -0.1589285714285714,
-            "pf": 0.7775,
+            "wr": 0.27586206896551724,
+            "profit": -5.449999999999999,
+            "roi": -0.1879310344827586,
+            "pf": 0.7404761904761904,
             "max_dd": 9.0,
             "avg_odds": 4.329696969696969,
             "avg_ev": 1.5226648995310978,
@@ -27369,6 +27428,10 @@
               {
                 "at": "2026-11-27T03:00:06.375850Z",
                 "equity": -4.45
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": -5.45
               }
             ]
           }
@@ -27380,15 +27443,15 @@
             "label": "1.00-1.49",
             "n": 62,
             "wins": 42,
-            "losses": 10,
+            "losses": 11,
             "voids": 0,
-            "pending": 6,
+            "pending": 5,
             "review_required": 4,
             "unverifiable": 0,
-            "wr": 0.8076923076923077,
-            "profit": 1.7749999999999995,
-            "roi": 0.034134615384615374,
-            "pf": 1.1775,
+            "wr": 0.7924528301886793,
+            "profit": 0.7749999999999995,
+            "roi": 0.014622641509433952,
+            "pf": 1.0704545454545455,
             "max_dd": 2.9000000000000004,
             "avg_odds": 1.2876129032258066,
             "avg_ev": -0.21978274252258156,
@@ -27601,6 +27664,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": 1.775
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": 0.775
               }
             ]
           },
@@ -27794,8 +27861,8 @@
             "wins": 6,
             "losses": 6,
             "voids": 0,
-            "pending": 1,
-            "review_required": 0,
+            "pending": 0,
+            "review_required": 1,
             "unverifiable": 0,
             "wr": 0.5,
             "profit": 1.0150000000000006,
@@ -27924,15 +27991,15 @@
             "label": "<0%",
             "n": 95,
             "wins": 61,
-            "losses": 19,
+            "losses": 20,
             "voids": 0,
-            "pending": 9,
+            "pending": 8,
             "review_required": 6,
             "unverifiable": 0,
-            "wr": 0.7625,
-            "profit": 6.63,
-            "roi": 0.082875,
-            "pf": 1.3489473684210522,
+            "wr": 0.7530864197530864,
+            "profit": 5.63,
+            "roi": 0.06950617283950618,
+            "pf": 1.2814999999999996,
             "max_dd": 3.148,
             "avg_odds": 1.4303789473684216,
             "avg_ev": -0.17796275754852808,
@@ -28257,6 +28324,10 @@
               {
                 "at": "2026-11-27T15:01:05.232652Z",
                 "equity": 6.63
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": 5.63
               }
             ]
           },
@@ -28366,8 +28437,8 @@
             "wins": 2,
             "losses": 2,
             "voids": 0,
-            "pending": 2,
-            "review_required": 0,
+            "pending": 1,
+            "review_required": 1,
             "unverifiable": 0,
             "wr": 0.5,
             "profit": 0.16999999999999993,
@@ -28472,15 +28543,15 @@
             "label": "1.00-1.49",
             "n": 67,
             "wins": 47,
-            "losses": 10,
+            "losses": 11,
             "voids": 0,
-            "pending": 6,
+            "pending": 5,
             "review_required": 4,
             "unverifiable": 0,
-            "wr": 0.8245614035087719,
-            "profit": 3.668,
-            "roi": 0.06435087719298246,
-            "pf": 1.3668,
+            "wr": 0.8103448275862069,
+            "profit": 2.668,
+            "roi": 0.046,
+            "pf": 1.2425454545454546,
             "max_dd": 2.435,
             "avg_odds": 1.2944029850746273,
             "avg_ev": -0.19097516586929836,
@@ -28713,6 +28784,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": 3.668
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": 2.668
               }
             ]
           },
@@ -28946,8 +29021,8 @@
             "wins": 14,
             "losses": 19,
             "voids": 0,
-            "pending": 2,
-            "review_required": 0,
+            "pending": 1,
+            "review_required": 1,
             "unverifiable": 0,
             "wr": 0.42424242424242425,
             "profit": -2.1799999999999984,
@@ -29184,15 +29259,15 @@
             "label": "3.00-3.99",
             "n": 15,
             "wins": 3,
-            "losses": 9,
+            "losses": 10,
             "voids": 0,
-            "pending": 2,
+            "pending": 1,
             "review_required": 1,
             "unverifiable": 0,
-            "wr": 0.25,
-            "profit": -1.8600000000000003,
-            "roi": -0.15500000000000003,
-            "pf": 0.7933333333333333,
+            "wr": 0.23076923076923078,
+            "profit": -2.8600000000000003,
+            "roi": -0.22000000000000003,
+            "pf": 0.714,
             "max_dd": 5.74,
             "avg_odds": 3.374,
             "avg_ev": 0.9079400311588607,
@@ -29245,6 +29320,10 @@
               {
                 "at": "2026-11-26T23:00:06.340113Z",
                 "equity": -1.86
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": -2.86
               }
             ]
           },
@@ -29294,15 +29373,15 @@
             "label": "<0%",
             "n": 95,
             "wins": 61,
-            "losses": 19,
+            "losses": 20,
             "voids": 0,
-            "pending": 9,
+            "pending": 8,
             "review_required": 6,
             "unverifiable": 0,
-            "wr": 0.7625,
-            "profit": 6.63,
-            "roi": 0.082875,
-            "pf": 1.3489473684210522,
+            "wr": 0.7530864197530864,
+            "profit": 5.63,
+            "roi": 0.06950617283950618,
+            "pf": 1.2814999999999996,
             "max_dd": 3.148,
             "avg_odds": 1.4303789473684216,
             "avg_ev": -0.17796275754852808,
@@ -29627,6 +29706,10 @@
               {
                 "at": "2026-11-27T15:01:05.232652Z",
                 "equity": 6.63
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": 5.63
               }
             ]
           },
@@ -29768,8 +29851,8 @@
             "wins": 9,
             "losses": 10,
             "voids": 0,
-            "pending": 3,
-            "review_required": 0,
+            "pending": 2,
+            "review_required": 1,
             "unverifiable": 0,
             "wr": 0.47368421052631576,
             "profit": -0.665,
@@ -29978,15 +30061,15 @@
             "label": "50%+",
             "n": 34,
             "wins": 9,
-            "losses": 20,
+            "losses": 21,
             "voids": 0,
-            "pending": 2,
+            "pending": 1,
             "review_required": 3,
             "unverifiable": 0,
-            "wr": 0.3103448275862069,
-            "profit": -2.69,
-            "roi": -0.09275862068965517,
-            "pf": 0.8654999999999999,
+            "wr": 0.3,
+            "profit": -3.69,
+            "roi": -0.123,
+            "pf": 0.8242857142857142,
             "max_dd": 8.0,
             "avg_odds": 4.2835294117647065,
             "avg_ev": 1.4940214663483729,
@@ -30107,6 +30190,10 @@
               {
                 "at": "2026-11-27T03:00:06.375850Z",
                 "equity": -2.69
+              },
+              {
+                "at": "2026-11-27T23:00:06.141842Z",
+                "equity": -3.69
               }
             ]
           }
@@ -30114,7 +30201,7 @@
       }
     },
     "calibration": {
-      "n": 175,
+      "n": 177,
       "bins": [
         {
           "bin": "0-10%",
@@ -30148,9 +30235,9 @@
         },
         {
           "bin": "50-60%",
-          "n": 127,
-          "predicted": 0.5480707603532405,
-          "actual": 0.5433070866141733
+          "n": 128,
+          "predicted": 0.548292733504779,
+          "actual": 0.5390625
         },
         {
           "bin": "60-70%",
@@ -30160,9 +30247,9 @@
         },
         {
           "bin": "70-80%",
-          "n": 6,
-          "predicted": 0.7306237914378092,
-          "actual": 0.8333333333333334
+          "n": 7,
+          "predicted": 0.7339893418761305,
+          "actual": 0.7142857142857143
         },
         {
           "bin": "80-90%",
@@ -30177,8 +30264,8 @@
           "actual": 1.0
         }
       ],
-      "brier": 0.23106216729529824,
-      "log_loss": 0.6507804591584918
+      "brier": 0.23354239412719424,
+      "log_loss": 0.6562085266516241
     }
   },
   "source": {
